@@ -578,4 +578,75 @@ pie showData
   "AI/ML (Python)" : 15
   "DevOps & Cloud" : 20
   "Desktop Apps (C#/C++)" : 20
+<!-- =======================
+🏆 PART 9 – ACHIEVEMENTS & CERTIFICATIONS
+======================= -->
+
+# 🏆 Achievements, Certifications & Awards  
+
+<p align="center">
+  <img src="https://i.ibb.co/jv6gW6p/trophy.gif" width="600" alt="Achievements Showcase"/>
+</p>
+
+---
+
+## 🥇 Major Achievements  
+
+- 🏅 **National Hackathon Finalist (2023)** – Built AI-powered smart meter reading app.  
+- 🌐 **Open Source Contributor** – Actively contributing to projects in C++, JS, and Python.  
+- 🚀 **100+ Projects Delivered** – From academic systems to real-world business solutions.  
+- 🎤 **Speaker at University Events** – Conducted seminars on Git, OOP, and AI.  
+- 📊 **Academy Management System** – Designed a full financial reporting solution with C# + SQL.  
+
+---
+
+## 📜 Certifications  
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Udemy%20-%20Full%20Stack%20Development-563D7C?style=for-the-badge&logo=udemy&logoColor=white" />
+  <img src="https://img.shields.io/badge/FreeCodeCamp%20-%20JavaScript%20Algorithms-2ECC71?style=for-the-badge&logo=freecodecamp&logoColor=white" />
+  <img src="https://img.shields.io/badge/Coursera%20-%20Machine%20Learning-FF6F61?style=for-the-badge&logo=coursera&logoColor=white" />
+  <img src="https://img.shields.io/badge/Microsoft%20-%20Azure%20Fundamentals-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" />
+</p>
+
+---
+
+## 🏅 GitHub Trophies  
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=habibx792&theme=gruvbox&margin-w=10&margin-h=10&column=7" />
+</p>
+
+---
+
+## 📈 Milestones  
+
+<details>
+  <summary>✨ Click to view career highlights</summary>
+  <br/>
+
+  - 🚀 **2021** → Started BS in Software Engineering at NTU.  
+  - 🖥️ **2022** → Built Library Management System (C#).  
+  - 📱 **2023** → Released Meter Reading App (Flutter + Firebase).  
+  - 💼 **2024** → Developed Academy Finance System (C# + SQL + Excel Reports).  
+  - 🌍 **2025** → Active GitHub profile with 500+ contributions.  
+
+</details>
+
+---
+
+## 🎉 Fun Achievements  
+
+- 🎯 Solved **500+ DSA problems** in C++.  
+- 🐍 Created GitHub **Snake Contribution Graph**.  
+- 🖌 Designed **animated & interactive README** files.  
+- 🏆 Won **coding quizzes & competitions** at university level.  
+
+---
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=FFD700&center=true&vCenter=true&width=900&lines=🚀+Proud+of+every+step+taken+in+my+tech+journey;🔥+Always+Learning+%7C+Always+Growing;🏆+Next+Stop:+Global+Impact" alt="Achievements Animation" />
+</p>
+
+---
 
