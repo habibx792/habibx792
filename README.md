@@ -1,66 +1,83 @@
-<!-- Profile Header with Animated Typing -->
-<h1 align="center">👋 Hi, I'm <span style="color:#0e75b6;">Ghulam Habib</span></h1>
+<!-- 🎉 Profile Header with Animated Typing -->
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=0e75b6&center=true&vCenter=true&width=600&lines=👋+Hi,+I'm+Ghulam+Habib;💻+Full+Stack+Developer;🤖+AI+%26+ML+Enthusiast;🚀+Lifelong+Learner" alt="Typing SVG" />
+</h1>
 
-
-<!-- Banner / GIF -->
+<!-- Banner -->
 <p align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="600" alt="coding gif">
+  <img src="https://i.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.webp" width="500" alt="Coding animation"/>
 </p>
 
 ---
 
-## 🌟 About Me
-- 🎯 Passionate about **Full Stack Development, AI, and Machine Learning**  
-- 📫 Reach me at **ghulamhabib.x@gmail.com**  
-- ⚡ Fun fact: *"Passion + Consistency = Success in Tech"*  
+## 🌟 About Me  
+✨ Always curious, always learning.  
+- 🔭 Exploring **AI, ML, and Full Stack Development**  
+- 📫 Reach me at: **ghulamhabib.x@gmail.com**  
+- ⚡ Motto: *"Passion + Consistency = Success in Tech"*  
 
 ---
 
-## 📫 Connect with Me  
-<div align="center" style="display:flex; gap:10px; justify-content:center; flex-wrap:wrap;">
-  <a href="mailto:ghulamhabib.x@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="https://twitter.com/YOUR-TWITTER"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
-  <a href="https://github.com/habibx792"><img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white"/></a>
-</div>
-
----
-
-## 🛠️ Tech Stack
+## 🔗 Connect with Me  
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=cpp,cs,css,git,html,js,linux,mysql,nodejs,python,react,docker,aws,flutter,firebase,tailwind,ts" />
+  <a href="mailto:ghulamhabib.x@gmail.com"><img src="https://img.shields.io/badge/-Email%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000"/></a>
+  <a href="https://linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000"/></a>
+  <a href="https://twitter.com/YOUR-TWITTER"><img src="https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=000"/></a>
+  <a href="https://github.com/habibx792"><img src="https://img.shields.io/badge/-GitHub-171515?style=for-the-badge&logo=github&logoColor=white&labelColor=000"/></a>
 </p>
 
 ---
 
-## 📊 GitHub Analytics
+## 🛠️ Tech Stack  
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=habibx792&show_icons=true&theme=tokyonight&hide_border=true" alt="stats"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=habibx792&theme=tokyonight&hide_border=true" alt="streak"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=habibx792&layout=compact&theme=tokyonight&hide_border=true" alt="languages"/>
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,tailwind,cpp,cs,python,flutter,firebase,mysql,git,linux,docker,aws&perline=9" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg" alt="snake animation"/>
 </p>
 
 ---
 
-## 🏆 Achievements
+## 📊 GitHub Analytics  
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=habibx792&theme=matrix&margin-w=15&margin-h=15&no-frame=true" alt="trophies"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=habibx792&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="180px"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=habibx792&theme=tokyonight&hide_border=true" height="180px"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=habibx792&layout=compact&theme=tokyonight&hide_border=true"/>
 </p>
 
 ---
 
-## 🚀 Featured Projects
-🌐 **Full Stack**  
+## 🏆 Achievements  
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=habibx792&theme=matrix&margin-w=15&margin-h=15&no-frame=true&row=1&column=6"/>
+</p>
+
+---
+
+## 🚀 Featured Projects  
+
+### 🌐 Full Stack  
 - 🔹 [AI/ML App](https://github.com/yourrepo)  
 - 🔹 [E-commerce Website](https://github.com/yourrepo)  
 
-🤖 **AI & ML**  
+### 🤖 AI & ML  
 - 🔹 [Chatbot with NLP](https://github.com/yourrepo)  
 - 🔹 [Image Classifier](https://github.com/yourrepo)  
 
 ---
 
-## 🎨 Animated Wave Footer
+## 🎶 Fun Animation  
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0e75b6&height=100&section=footer"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Roboto&size=24&duration=3000&pause=1000&color=FF5733&center=true&vCenter=true&width=600&lines=⚡+Code.+Create.+Innovate.;🔥+Building+the+Future+with+Tech.;🚀+Always+Learning%2C+Always+Growing." />
+</p>
+
+---
+
+## 🎨 Animated Wave Footer  
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0e75b6&height=100&section=footer&animation=fadeIn"/>
 </p>
