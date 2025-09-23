@@ -649,4 +649,87 @@ pie showData
 </p>
 
 ---
+<!-- =======================
+💼 PART 10 – PROJECTS SHOWCASE
+======================= -->
+
+# 💼 Featured Projects  
+
+<p align="center">
+  <img src="https://i.ibb.co/0rSMG4z/projects.gif" width="650" alt="Projects Showcase"/>
+</p>
+
+---
+
+## 🚀 Highlighted Works  
+
+### 📱 **Meter Reading App** – *(Flutter + Firebase)*  
+- 🔹 OCR-based electricity/gas meter reading system.  
+- 📍 GPS location tagging & offline storage.  
+- 🔑 Firebase Auth + Firestore DB.  
+- 🌐 Real-world use in utility management.  
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Code-View%20on%20GitHub-171515?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Live-Demo-00F5D4?style=for-the-badge&logo=flutter&logoColor=white" />
+</p>
+
+---
+
+### 🏫 **Academy Management System** – *(C# + SQL + Excel Reports)*  
+- 💵 Tracks **student fees, expenses, RTS (scholarships), teacher salaries**.  
+- 📊 Generates **styled Excel reports** with charts.  
+- 🖨️ Print-ready fee slips & profit/loss analysis.  
+- 🏆 Used in a real academy for automation.  
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Code-View%20on%20GitHub-171515?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Live-Demo-FF6F61?style=for-the-badge&logo=windows&logoColor=white" />
+</p>
+
+---
+
+### 📚 **Library Management System** – *(C# + SQL Server)*  
+- 📖 Book issuing, returning, fine calculation.  
+- 👩‍🎓 Student registration & record management.  
+- 📊 Admin dashboard with transaction history.  
+
+---
+
+### 🎮 **Tic Tac Toe Game** – *(JavaScript)*  
+- 🕹️ Two-player game with **name input & winner detection**.  
+- 🎨 Clean UI with interactive highlights.  
+- 💡 Demonstrates **JS OOP principles**.  
+
+---
+
+### 🌐 **Portfolio Website** – *(Next.js + Tailwind)*  
+- ⚡ Fully responsive, modern UI/UX.  
+- 🖌️ Animations & dark/light mode toggle.  
+- 📂 Sections for projects, blogs, and contact form.  
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Visit-Portfolio-0A66C2?style=for-the-badge&logo=google-chrome&logoColor=white" />
+</p>
+
+---
+
+## 📊 Project Stats  
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=habibx792&repo=Academy-Management-System&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=habibx792&repo=Meter-Reading-App&theme=tokyonight" />
+</p>
+
+---
+
+## 🔎 Explore More  
+
+<p align="center">
+  <a href="https://github.com/habibx792?tab=repositories">
+    <img src="https://img.shields.io/badge/🔗%20View%20All%20Projects-On%20GitHub-171515?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
+
+---
 
