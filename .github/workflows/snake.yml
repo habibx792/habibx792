@@ -12,7 +12,6 @@ on:
         default: 'Update snake visualization'
 
 env:
-  OUTPUT_DIR: 'assets/github-insights'
   BRANCH: 'main'
 
 jobs:
@@ -28,26 +27,18 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: 📁 Create output directory
-        run: mkdir -p ${{ env.OUTPUT_DIR }}
-
       - name: 🐍 Generate snake game visualization
         uses: Platane/snk@master
         with:
           github_user_name: habibx792
           outputs: |
-            snake.svg
-            snake-dark.svg
-            snake.gif
+            dist/snake.svg
+            dist/snake-dark.svg
+            dist/snake.gif
           gif_out: true
           svg_out: true
           color_snake: "orange"
           color_dots: "blue"
-
-      - name: 📁 Move snake files to output directory
-        run: |
-          mv snake.svg snake-dark.svg snake.gif ${{ env.OUTPUT_DIR }}/ 2>/dev/null || true
-          echo "📁 Files moved to ${{ env.OUTPUT_DIR }}/"
 
       - name: 📊 Generate GitHub metrics
         uses: lowlighter/metrics@latest
@@ -61,33 +52,31 @@ jobs:
           plugin_traffic: yes
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-          output_name: ${{ env.OUTPUT_DIR }}/github-metrics.svg
+          output_name: github-metrics.svg
 
       - name: 🔍 Verify generated files
         run: |
-          echo "📁 Generated files in ${{ env.OUTPUT_DIR }}:"
-          ls -la ${{ env.OUTPUT_DIR }}/
-          echo "✅ Files generated successfully!"
+          echo "📁 Generated files:"
+          ls -la dist/ || echo "dist folder not found"
+          ls -la *.svg || echo "SVG files not found in root"
+          echo "✅ Verification completed!"
 
       - name: 💾 Commit and push generated assets
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: |
             🐍 Update snake visualization
-            - Generated snake graphics
+            - Generated snake graphics in dist folder
             - Updated GitHub metrics
             - Automated: $(date)
             
             ${{ github.event.inputs.message }}
           branch: ${{ env.BRANCH }}
-          file_pattern: ${{ env.OUTPUT_DIR }}/*
-
-      - name: 📤 Upload artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: github-metrics
-          path: ${{ env.OUTPUT_DIR }}/
-          retention-days: 7
+          file_pattern: |
+            dist/*
+            *.svg
+          commit_user_name: 'GitHub Actions'
+          commit_user_email: 'actions@github.com'
 
   notify:
     name: 📢 Notification
@@ -100,8 +89,9 @@ jobs:
         if: needs.generate-snake.conclusion == 'success'
         run: |
           echo "🎉 Snake visualization updated successfully!"
-          echo "📁 Files: ${{ env.OUTPUT_DIR }}/"
-          echo "🔗 URL: https://github.com/${{ github.repository }}/blob/main/${{ env.OUTPUT_DIR }}/snake.svg"
+          echo "📁 Snake file: dist/snake.svg"
+          echo "📁 Metrics file: github-metrics.svg"
+          echo "🔗 Snake URL: https://github.com/${{ github.repository }}/blob/main/dist/snake.svg"
 
       - name: ❌ Failure notification
         if: needs.generate-snake.conclusion == 'failure'
