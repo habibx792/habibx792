@@ -1,13 +1,9 @@
-- name: generate snake
-  uses: Platane/snk@master
-  with:
-    github_user_name: habibx792
-
+name: Generate Snake
 
 on:
   schedule: # every 24 hours
     - cron: "0 0 * * *"
-  workflow_dispatch:
+  workflow_dispatch: # allows manual trigger
 
 jobs:
   build:
