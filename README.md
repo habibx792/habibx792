@@ -46,9 +46,6 @@
   <img src="https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg" alt="snake animation" style="max-width: 100%; border-radius: 12px; box-shadow: 0px 0px 15px rgba(14, 117, 182, 0.6);" />
 </p>
 
-<!-- Animated Wave -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0E75B6&height=100&section=footer"/>
-
 </div>
 
 ---
