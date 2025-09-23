@@ -399,3 +399,94 @@ Upcoming plans:
 
 ---
 
+<!-- =======================
+💼 PART 7 – PROJECTS SHOWCASE & FEATURED REPOSITORIES
+======================= -->
+
+# 💼 Featured Projects  
+
+<p align="center">
+  <img src="https://i.ibb.co/zrnNqBB/projects.gif" width="600" alt="Projects Showcase"/>
+</p>
+
+Here are some of my best works that combine **design, functionality, and scalability**.  
+
+---
+
+## 🚀 Meter Reading App  
+**Flutter + Firebase | OCR | GPS Integration**  
+- Built an **OCR-powered mobile app** to read electricity meters.  
+- Stores readings in **Firebase Firestore** with GPS-tagged location.  
+- Works **offline & syncs online** when internet is available.  
+
+<p align="center">
+  <img src="https://i.ibb.co/SNq7fzd/meter-reading.gif" width="400" alt="Meter Reading App"/>
+</p>
+
+🔗 [View Repository](https://github.com/habibx792/meter-reading-app)  
+
+---
+
+## 📚 Library Management System  
+**C# + SQL Server | WinForms**  
+- Manages **students, books, and transactions**.  
+- Includes **search, borrow/return, and report generation**.  
+- Integrated with **printable fee slips and Excel exports**.  
+
+<p align="center">
+  <img src="https://i.ibb.co/Bt4Sbmx/library.gif" width="400" alt="Library Management"/>
+</p>
+
+🔗 [View Repository](https://github.com/habibx792/library-management-system)  
+
+---
+
+## 👨‍💼 Employee Management System  
+**C# + SQL Server | Windows Forms**  
+- Built for **academies & institutions** to manage employees.  
+- Handles **salaries, attendance, and role-based reporting**.  
+- Exports financial reports with **ClosedXML + styled Excel sheets**.  
+
+<p align="center">
+  <img src="https://i.ibb.co/jrf7W4S/employee.gif" width="400" alt="Employee Management"/>
+</p>
+
+🔗 [View Repository](https://github.com/habibx792/employee-management-system)  
+
+---
+
+## 🎮 Tic-Tac-Toe Game  
+**JavaScript + HTML + CSS**  
+- Multiplayer game with **player names & winner detection**.  
+- Animated game board with **highlighted winning rows**.  
+- Clean UI built with **modern CSS grid + animations**.  
+
+<p align="center">
+  <img src="https://i.ibb.co/BN43g7K/tictactoe.gif" width="400" alt="Tic Tac Toe"/>
+</p>
+
+🔗 [Play Game](https://habibx792.github.io/tic-tac-toe)  
+
+---
+
+# 📂 GitHub Featured Repositories  
+
+<p align="center">
+  <a href="https://github.com/habibx792">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=habibx792&repo=meter-reading-app&theme=tokyonight&hide_border=true" />
+  </a>
+  <a href="https://github.com/habibx792">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=habibx792&repo=employee-management-system&theme=tokyonight&hide_border=true" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/habibx792">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=habibx792&repo=library-management-system&theme=tokyonight&hide_border=true" />
+  </a>
+  <a href="https://github.com/habibx792">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=habibx792&repo=tic-tac-toe&theme=tokyonight&hide_border=true" />
+  </a>
+</p>
+
+---
