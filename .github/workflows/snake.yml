@@ -1,4 +1,8 @@
-name: Generate Snake
+- name: generate snake
+  uses: Platane/snk@master
+  with:
+    github_user_name: habibx792
+
 
 on:
   schedule: # every 24 hours
