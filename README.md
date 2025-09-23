@@ -1,15 +1,15 @@
-<!-- =======================
-🔥 PART 1 – HERO SECTION
-======================= -->
+<!-- =========================
+🔥 HERO + ABOUT ME (COMBINED)
+========================= -->
 
 <div align="center">
 
-  <!-- Animated Typing Header -->
+  <!-- Animated Intro -->
   <h1>
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=00F5D4&center=true&vCenter=true&width=800&lines=👋+Hi,+I'm+Ghulam+Habib;💻+Full+Stack+Developer;🤖+AI+%26+ML+Enthusiast;🚀+Tech+Innovator" alt="Typing Intro" />
   </h1>
 
-  <!-- Banner Image -->
+  <!-- Banner -->
   <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1400&q=80" alt="Coding workspace" width="100%" style="border-radius:12px;max-width:1000px;" />
 
   <!-- Tagline -->
@@ -17,39 +17,31 @@
 
   <!-- Social Badges -->
   <p>
-    <a href="mailto:ghulamhabib.x@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-    <a href="https://github.com/habibx792"><img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white" /></a>
-    <a href="https://linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+    <a href="mailto:ghulamhabib.x@gmail.com"><img src="https://img.shields.io/badge/✉️%20Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+    <a href="https://github.com/habibx792"><img src="https://img.shields.io/badge/🐙%20GitHub-171515?style=for-the-badge&logo=github&logoColor=white" /></a>
+    <a href="https://linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/🔗%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   </p>
 
-  <!-- Quick GitHub Stats -->
+  <!-- GitHub Stats -->
   <img src="https://github-readme-stats.vercel.app/api?username=habibx792&show_icons=true&theme=tokyonight&hide_border=true" height="150" />
   <img src="https://github-readme-streak-stats.herokuapp.com?user=habibx792&theme=tokyonight&hide_border=true" height="150" />
 
 </div>
 
-<!-- ================================================== -->
-<!-- PART 2 — ABOUT, QUICK FACTS, CONTACT & HOW TO COLLABORATE -->
-<!-- Paste this directly BELOW Part 1 in your README.md -->
-<!-- ================================================== -->
-
-<!-- ========== ABOUT ME (EXPANDED) ========== -->
-<!-- =======================
-🌟 PART 2 – ABOUT & COLLABORATION
-======================= -->
+---
 
 ## 🌟 About Me  
 
 <div align="center">
 
-✨ I’m **Ghulam Habib** — a  
+✨ I’m **Ghulam Habib** —  
 💻 Full-Stack Engineer • 🤖 AI/ML Enthusiast • 🚀 Tech Innovator  
 
-I build **performant web apps, scalable APIs, and applied ML systems** with a focus on  
+I craft **scalable APIs, performant web apps, and applied ML systems** with a focus on  
 **usability, accessibility, and production reliability**.  
-I enjoy mentoring, contributing to open-source, and turning research into real products.  
+I also mentor developers, contribute to open-source, and enjoy turning research into real products.  
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&pause=1200&color=FF6F61&center=true&vCenter=true&width=700&lines=⚡+Design+for+Humans+%7C+Engineer+for+Scale;⚡+Code+with+Care+%7C+Ship+with+Confidence" alt="Motto animation" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&pause=1200&color=FF6F61&center=true&vCenter=true&width=700&lines=⚡+Design+for+Humans+%7C+Engineer+for+Scale;⚡+Code+with+Care+%7C+Ship+with+Confidence" alt="Motto" />
 
 </div>
 
@@ -61,7 +53,7 @@ I enjoy mentoring, contributing to open-source, and turning research into real p
   
 | 📍 Location | 💼 Availability | 🗣 Languages | ⏱ Response |
 |-------------|----------------|--------------|-------------|
-| Faisalabad, Pakistan (UTC+5) | Open for freelance & long-term | English (fluent), Urdu (native) | Replies within 24 hrs |
+| Faisalabad, Pakistan (UTC+5) | Freelance & Long-term roles | English (fluent), Urdu (native) | Replies within 24 hrs |
 
 </div>
 
@@ -84,10 +76,10 @@ I enjoy mentoring, contributing to open-source, and turning research into real p
   <br/>
   
   - **Open-source contributions** → Fork, branch, PR with clear description.  
-  - **Freelance/Contract work** → Email me project brief (scope, timeline, budget).  
+  - **Freelance/Contract work** → Email me your project brief (scope, timeline, budget).  
   - **Mentorship** → DM me on LinkedIn with your goals.  
 
-  **Code of Conduct:** Respectful, constructive, and collaborative 💙  
+  **Code of Conduct:** Be respectful, constructive & collaborative 💙  
 </details>
 
 ---
@@ -108,12 +100,12 @@ I enjoy mentoring, contributing to open-source, and turning research into real p
 
 <details>
   <summary>📄 Where’s your resume?</summary>
-  Use the "Resume" badge above (PDF is always updated).
+  Use the "Resume" badge above (PDF always updated).
 </details>
 
 <details>
   <summary>💖 Do you accept sponsorships?</summary>
-  Yes, via GitHub Sponsors or BuyMeACoffee (coming soon).
+  Yes → via GitHub Sponsors or BuyMeACoffee (coming soon).
 </details>
 
 <details>
@@ -124,4 +116,3 @@ I enjoy mentoring, contributing to open-source, and turning research into real p
   cd <repo>
   npm install   # or pip install -r requirements.txt
   npm run dev   # or python main.py
-
