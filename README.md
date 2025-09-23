@@ -3,9 +3,9 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=0e75b6&center=true&vCenter=true&width=600&lines=👋+Hi,+I'm+Ghulam+Habib;💻+Full+Stack+Developer;🤖+AI+%26+ML+Enthusiast;🚀+Lifelong+Learner" alt="Typing SVG" />
 </h1>
 
-<!-- Banner -->
+<!-- Banner: beautiful programmer image (Unsplash dynamic) -->
 <p align="center">
-  <img src="https://i.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.webp" width="500" alt="Coding animation"/>
+  <img src="https://source.unsplash.com/1200x400/?programmer,coding,developer" width="800" alt="Programmer at work" style="border-radius:12px; box-shadow: 0 8px 24px rgba(14,117,182,0.12);"/>
 </p>
 
 ---
