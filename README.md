@@ -1,76 +1,82 @@
-# 👋 Hi, I'm Ghulam Habib  
+<!-- 🎉 Profile Header with Banner -->
+<h1 align="center">👋 Hi, I'm <span style="color:#0e75b6;">Ghulam Habib</span></h1>
+<h3 align="center">💻 Software Engineer | 🌐 Full Stack Developer | 🤖 AI & ML Enthusiast | 🚀 Lifelong Learner</h3>
 
-<h3 align="center">💻 Software Engineer | 🌐 Full Stack Developer | 🤖 AI & ML Enthusiast | 🇵🇰 Pakistan</h3>  
+<!-- Banner -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" width="700" alt="Coding Banner"/>
+</p>
 
 ---
 
-## 🚀 About Me  
+## 🌟 About Me  
+✨ Always curious, always learning.  
+- 🔭 Exploring **AI, ML, and Full Stack Development**  
+- 📫 Reach me at: **ghulamhabib.x@gmail.com**  
+- ⚡ Motto: *"Passion + Consistency = Success in Tech"*  
 
-- 🔭 I’m currently working on **AI-powered applications** and **full stack projects**  
-- 🌱 I’m exploring **Next.js, Tailwind CSS, and Cloud Technologies**  
-- 👯 I’m looking to collaborate on **open-source projects**  
-- 💬 Ask me about **JavaScript, C#, C++, AI/ML, and Databases**  
-- ⚡ Fun fact: **I love turning coffee into clean code! ☕**  
+---
+
+## 🔗 Connect with Me  
+<p align="center">
+  <a href="mailto:ghulamhabib.x@gmail.com"><img src="https://img.shields.io/badge/-Email%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000"/></a>
+  <a href="https://linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000"/></a>
+  <a href="https://twitter.com/YOUR-TWITTER"><img src="https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=000"/></a>
+  <a href="https://github.com/habibx792"><img src="https://img.shields.io/badge/-GitHub-171515?style=for-the-badge&logo=github&logoColor=white&labelColor=000"/></a>
+</p>
 
 ---
 
 ## 🛠️ Tech Stack  
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,tailwind,cpp,cs,python,flutter,firebase,mysql,git,linux,docker,aws&perline=9" />
+</p>
 
-<p align="center">  
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,express,tailwind,bootstrap,cpp,cs,py,mysql,sqlite,mongodb,firebase,git,github,vscode,linux&perline=9" />  
-</p>  
-
----
-
-## 📊 GitHub Stats  
-
-<p align="center">  
-<img src="https://github-readme-stats.vercel.app/api?username=HABIB-X&show_icons=true&theme=tokyonight" height="165"/>  
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=HABIB-X&theme=tokyonight" height="165"/>  
-</p>  
-
-<p align="center">  
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=HABIB-X&theme=tokyo-night" />  
-</p>  
+<p align="center">
+  <img src="https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg" alt="snake animation"/>
+</p>
 
 ---
 
-## 🏆 Trophies  
+## 📊 GitHub Analytics  
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=habibx792&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="180px"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=habibx792&theme=tokyonight&hide_border=true" height="180px"/>
+</p>
 
-<p align="center">  
-<img src="https://github-profile-trophy.vercel.app/?username=HABIB-X&theme=tokyonight&margin-w=10&margin-h=10&column=7" />  
-</p>  
-
----
-
-## 📂 Featured Projects  
-
-- 🌐 [Portfolio Website](https://github.com/HABIB-X)  
-- 📱 [Meter Reading App](https://github.com/HABIB-X)  
-- 🏫 [School Management System](https://github.com/HABIB-X)  
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=habibx792&layout=compact&theme=tokyonight&hide_border=true"/>
+</p>
 
 ---
 
-## 🌐 Connect With Me  
-
-<p align="center">  
-<a href="https://linkedin.com/in/ghulam-habib" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=linkedin" /></a>  
-<a href="mailto:ghulamhb.dev@gmail.com"><img src="https://img.shields.io/badge/-Email-red?style=for-the-badge&logo=gmail" /></a>  
-<a href="https://github.com/HABIB-X"><img src="https://img.shields.io/badge/-GitHub-black?style=for-the-badge&logo=github" /></a>  
-</p>  
+## 🏆 Achievements  
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=habibx792&theme=matrix&margin-w=15&margin-h=15&no-frame=true&row=1&column=6"/>
+</p>
 
 ---
 
-## 🐍 Contribution Snake  
+## 🚀 Featured Projects  
 
-<p align="center">  
-<img src="https://raw.githubusercontent.com/HABIB-X/HABIB-X/output/github-contribution-grid-snake.svg" />  
-</p>  
+### 🌐 Full Stack  
+- 🔹 [📱 Meter Reading App (Flutter + Firebase)](https://github.com/yourrepo)  
+- 🔹 [🖥️ Employee Management System (C# + SQL Server)](https://github.com/yourrepo)  
+
+### 🤖 AI & ML  
+- 🔹 [🤖 Chatbot with NLP](https://github.com/yourrepo)  
+- 🔹 [🖼️ Image Classifier](https://github.com/yourrepo)  
 
 ---
 
-## 🌊 Footer  
+## 🎶 Fun Animation  
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Roboto&size=24&duration=3000&pause=1000&color=FF5733&center=true&vCenter=true&width=600&lines=⚡+Code.+Create.+Innovate.;🔥+Building+the+Future+with+Tech.;🚀+Always+Learning%2C+Always+Growing." />
+</p>
 
-<p align="center">  
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer"/>  
-</p>  
+---
+
+## 🎨 Animated Wave Footer  
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0e75b6&height=100&section=footer&animation=fadeIn"/>
+</p>
