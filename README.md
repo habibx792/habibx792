@@ -148,8 +148,9 @@
 # 🛣️ My Developer Roadmap  
 
 <p align="center">
-  <img src="https://github.com/habibx792/habibx792/blob/main/roadmap.svg" alt="roadmap svg" width="100%"/>
+  <img src="https://raw.githubusercontent.com/habibx792/habibx792/main/roadmap.svg" alt="roadmap svg" width="100%"/>
 </p>
+
 
 📌 **Current Focus (2025)**  
 - ⚡ Advance my AI/ML expertise  
