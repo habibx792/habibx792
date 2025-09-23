@@ -317,3 +317,85 @@ Test Early – debug before it’s too late.
 📚 Reading Tech Books
 
 🏋️ Gym
+<!-- =======================
+🏆 PART 6 – ACHIEVEMENTS, CERTIFICATES & TIMELINE
+======================= -->
+
+# 🏆 Achievements & Recognition  
+
+<p align="center">
+  <img src="https://i.ibb.co/3v6Bwh6/achievements.gif" width="500" alt="Achievements"/>
+</p>
+
+- 🥇 **1st Place** – Software Sprint Quiz Competition (2024)  
+- 🏅 **Top 10 Finalist** – HackFest Pakistan (2023)  
+- 🌐 **Open Source Contributor** – Multiple GitHub projects  
+- 💡 **Innovation Award** – National Textile University Project Expo (2025)  
+
+---
+
+# 📜 Certifications  
+
+<p align="center">
+  <img src="https://i.ibb.co/LNnVGk6/certificate.gif" width="400" alt="Certificates"/>
+</p>
+
+| 📖 Certification | 🏢 Organization | 📅 Year |
+|------------------|----------------|---------|
+| Full-Stack Development | freeCodeCamp | 2024 |
+| SQL & Databases | DataCamp | 2024 |
+| Git & GitHub Mastery | Coursera | 2024 |
+| Cloud Fundamentals (AWS) | AWS Academy | 2025 |
+| Machine Learning Basics | Kaggle | 2025 |
+
+---
+
+# 🗓 Timeline of Growth  
+
+<p align="center">
+  <img src="https://i.ibb.co/F5SCrM2/roadmap.gif" width="600" alt="Timeline"/>
+</p>
+
+### **📌 2022**  
+- Started **BS Software Engineering** at NTU  
+- Learned C++, basic OOP, and algorithms  
+
+### **📌 2023**  
+- Explored **C#, SQL, Data Structures**  
+- Built first **Library Management System**  
+
+### **📌 2024**  
+- Deep dive into **Web Development (React, Tailwind, Node.js)**  
+- Gained strong grip on **Git, SQL Procedures, Transactions**  
+- Developed **Employee Management System (WinForms + SQL Server)**  
+
+### **📌 2025**  
+- Built **Meter Reading App (Flutter + Firebase, OCR, GPS)**  
+- Mastered **Advanced Git, Full-Stack, Docker, AWS**  
+- Started **mentoring peers & contributing to open source**  
+
+---
+
+# 🌍 Global Reach  
+
+<p align="center">
+  <img src="https://i.ibb.co/n7Y8VfW/global.gif" width="500" alt="Global Reach"/>
+</p>
+
+- 🌐 Visitors from **30+ countries** on GitHub profile  
+- 📊 Contributions to **international open-source repos**  
+- 🤝 Collaborations with developers in **Pakistan, India, USA, UK**  
+- 📢 Shared knowledge via **GitHub Projects, Docs, Blogs**  
+
+---
+
+# 🎯 Next Steps  
+
+✨ My journey doesn’t stop here.  
+Upcoming plans:  
+- 🧠 Deep dive into **AI/ML + Cloud DevOps**  
+- 🚀 Work on **global SaaS product**  
+- 🎓 Mentor & teach **next-gen developers**  
+
+---
+
