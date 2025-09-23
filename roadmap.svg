@@ -1,4 +1,3 @@
-@@ -1,311 +1,365 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
   <defs>
     <!-- Advanced Background Gradients -->
@@ -60,7 +59,6 @@
       <stop offset="0%" stop-color="#2496ED"/>
       <stop offset="100%" stop-color="#1D63ED"/>
     </linearGradient>
-
     
     <linearGradient id="agenticAiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#DA22FF"/>
@@ -106,8 +104,204 @@
   </g>
 
   <!-- Main Title -->
-<!-- Main Title: Glowing & Clear -->
-<text x="700" y="80" font-size="56" font-family="Arial Black" text-anchor="middle"
-      fill="#00F5D4" stroke="#00F5D4" stroke-width="2" filter="url(#neonGlow)">
-  🚀 MY TECH JOURNEY 2024
-</text>
+  <text x="700" y="80" font-size="48" font-family="Arial Black" text-anchor="middle" fill="#00D4FF" filter="url(#neonGlow)">
+    🚀 MY TECH JOURNEY 2024
+    <animate attributeName="fill" values="#00D4FF;#00FFAA;#FF6B6B;#00D4FF" dur="4s" repeatCount="indefinite"/>
+  </text>
+  
+  <text x="700" y="120" font-size="18" font-family="Arial" text-anchor="middle" fill="#888">
+    C++ → C# → DSA → HTML → CSS → React → Git → Docker → Agentic AI → AI Engineering
+  </text>
+
+  <!-- Main Learning Path -->
+  <g>
+    <!-- Path Line -->
+    <path d="M 100 250 Q 200 200 300 250 Q 400 200 500 250 Q 600 200 700 250 Q 800 200 900 250 Q 1000 200 1100 250 Q 1200 200 1300 250" 
+          fill="none" stroke="rgba(0, 255, 136, 0.3)" stroke-width="4" stroke-dasharray="8,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="12" dur="2s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- C++ -->
+    <g transform="translate(100, 250)">
+      <circle r="45" fill="url(#cppGrad)" filter="url(#pulseGlow)">
+        <animate attributeName="r" values="45;50;45" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <use href="#code-icon" x="-12" y="-12" width="24" height="24"/>
+      <text x="0" y="35" text-anchor="middle" fill="white" font-size="16" font-weight="bold">C++</text>
+      <text x="0" y="55" text-anchor="middle" fill="#ccc" font-size="10">OOP Foundations</text>
+    </g>
+
+    <!-- C# -->
+    <g transform="translate(300, 250)">
+      <circle r="45" fill="url(#csharpGrad)" filter="url(#pulseGlow)">
+        <animate attributeName="r" values="45;50;45" dur="2s" repeatCount="indefinite" begin="0.2s"/>
+      </circle>
+      <text x="0" y="-10" text-anchor="middle" fill="white" font-size="24" font-weight="bold">#</text>
+      <text x="0" y="35" text-anchor="middle" fill="white" font-size="16" font-weight="bold">C#</text>
+      <text x="0" y="55" text-anchor="middle" fill="#ccc" font-size="10">.NET Ecosystem</text>
+    </g>
+
+    <!-- DSA -->
+    <g transform="translate(500, 250)">
+      <circle r="45" fill="url(#dsaGrad)" filter="url(#pulseGlow)">
+        <animate attributeName="r" values="45;50;45" dur="2s" repeatCount="indefinite" begin="0.4s"/>
+      </circle>
+      <text x="0" y="-5" text-anchor="middle" fill="white" font-size="20" font-weight="bold">Σ</text>
+      <text x="0" y="35" text-anchor="middle" fill="white" font-size="16" font-weight="bold">DSA</text>
+      <text x="0" y="55" text-anchor="middle" fill="#ccc" font-size="10">Algorithms</text>
+    </g>
+
+    <!-- HTML -->
+    <g transform="translate(700, 250)">
+      <circle r="45" fill="url(#htmlGrad)" filter="url(#pulseGlow)">
+        <animate attributeName="r" values="45;50;45" dur="2s" repeatCount="indefinite" begin="0.6s"/>
+      </circle>
+      <text x="0" y="-10" text-anchor="middle" fill="white" font-size="24" font-weight="bold">&lt;/&gt;</text>
+      <text x="0" y="35" text-anchor="middle" fill="white" font-size="16" font-weight="bold">HTML5</text>
+      <text x="0" y="55" text-anchor="middle" fill="#ccc" font-size="10">Structure</text>
+    </g>
+
+    <!-- CSS -->
+    <g transform="translate(900, 250)">
+      <circle r="45" fill="url(#cssGrad)" filter="url(#pulseGlow)">
+        <animate attributeName="r" values="45;50;45" dur="2s" repeatCount="indefinite" begin="0.8s"/>
+      </circle>
+      <text x="0" y="-10" text-anchor="middle" fill="white" font-size="24" font-weight="bold">{ }</text>
+      <text x="0" y="35" text-anchor="middle" fill="white" font-size="16" font-weight="bold">CSS3</text>
+      <text x="0" y="55" text-anchor="middle" fill="#ccc" font-size="10">Styling</text>
+    </g>
+
+    <!-- React -->
+    <g transform="translate(1100, 250)">
+      <circle r="45" fill="url(#reactGrad)" filter="url(#pulseGlow)">
+        <animate attributeName="r" values="45;50;45" dur="2s" repeatCount="indefinite" begin="1.0s"/>
+      </circle>
+      <text x="0" y="-5" text-anchor="middle" fill="black" font-size="20" font-weight="bold">⚛</text>
+      <text x="0" y="35" text-anchor="middle" fill="black" font-size="16" font-weight="bold">React</text>
+      <text x="0" y="55" text-anchor="middle" fill="#666" font-size="10">Framework</text>
+    </g>
+  </g>
+
+  <!-- Second Row: DevOps & AI -->
+  <g>
+    <!-- Path Line -->
+    <path d="M 100 450 Q 250 400 400 450 Q 550 400 700 450 Q 850 400 1000 450 Q 1150 400 1300 450" 
+          fill="none" stroke="rgba(0, 255, 136, 0.3)" stroke-width="4" stroke-dasharray="8,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="12" dur="2s" repeatCount="indefinite" begin="1s"/>
+    </path>
+
+    <!-- Git -->
+    <g transform="translate(100, 450)">
+      <circle r="45" fill="url(#gitGrad)" filter="url(#pulseGlow)">
+        <animate attributeName="r" values="45;50;45" dur="2s" repeatCount="indefinite" begin="1.2s"/>
+      </circle>
+      <text x="0" y="-10" text-anchor="middle" fill="white" font-size="24" font-weight="bold">⎇</text>
+      <text x="0" y="35" text-anchor="middle" fill="white" font-size="16" font-weight="bold">Git</text>
+      <text x="0" y="55" text-anchor="middle" fill="#ccc" font-size="10">Version Control</text>
+    </g>
+
+    <!-- Docker -->
+    <g transform="translate(400, 450)">
+      <circle r="45" fill="url(#dockerGrad)" filter="url(#pulseGlow)">
+        <animate attributeName="r" values="45;50;45" dur="2s" repeatCount="indefinite" begin="1.4s"/>
+      </circle>
+      <text x="0" y="-10" text-anchor="middle" fill="white" font-size="24" font-weight="bold">🐳</text>
+      <text x="0" y="35" text-anchor="middle" fill="white" font-size="16" font-weight="bold">Docker</text>
+      <text x="0" y="55" text-anchor="middle" fill="#ccc" font-size="10">Containers</text>
+    </g>
+
+    <!-- Agentic AI -->
+    <g transform="translate(700, 450)">
+      <circle r="45" fill="url(#agenticAiGrad)" filter="url(#pulseGlow)">
+        <animate attributeName="r" values="45;50;45" dur="2s" repeatCount="indefinite" begin="1.6s"/>
+      </circle>
+      <use href="#ai-icon" x="-12" y="-12" width="24" height="24"/>
+      <text x="0" y="35" text-anchor="middle" fill="white" font-size="14" font-weight="bold">Agentic AI</text>
+      <text x="0" y="55" text-anchor="middle" fill="#ccc" font-size="10">Autonomous Agents</text>
+    </g>
+
+    <!-- AI Engineering -->
+    <g transform="translate(1000, 450)">
+      <circle r="45" fill="url(#aiEngineeringGrad)" filter="url(#pulseGlow)">
+        <animate attributeName="r" values="45;50;45" dur="2s" repeatCount="indefinite" begin="1.8s"/>
+      </circle>
+      <text x="0" y="-10" text-anchor="middle" fill="white" font-size="24" font-weight="bold">🧠</text>
+      <text x="0" y="35" text-anchor="middle" fill="white" font-size="14" font-weight="bold">AI Engineering</text>
+      <text x="0" y="55" text-anchor="middle" fill="#ccc" font-size="10">ML Systems</text>
+    </g>
+
+    <!-- Final Destination -->
+    <g transform="translate(1300, 450)">
+      <circle r="50" fill="none" stroke="#00FFAA" stroke-width="4" stroke-dasharray="4,4">
+        <animate attributeName="r" values="50;55;50" dur="1.5s" repeatCount="indefinite"/>
+      </circle>
+      <text x="0" y="-5" text-anchor="middle" fill="#00FFAA" font-size="24" font-weight="bold">⭐</text>
+      <text x="0" y="35" text-anchor="middle" fill="#00FFAA" font-size="14" font-weight="bold">Mastery</text>
+      <text x="0" y="55" text-anchor="middle" fill="#ccc" font-size="10">Goal Achieved</text>
+    </g>
+  </g>
+
+  <!-- Connecting Arrow Between Rows -->
+  <path d="M 1100 295 Q 1150 350 1100 405" fill="none" stroke="#00ff88" stroke-width="3" marker-end="url(#techArrow)">
+    <animate attributeName="stroke-dashoffset" from="0" to="10" dur="1s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Progress Indicator -->
+  <g>
+    <rect x="100" y="600" width="1200" height="8" fill="#333" rx="4"/>
+    <rect x="100" y="600" width="800" height="8" fill="url(#aiEngineeringGrad)" rx="4">
+      <animate attributeName="width" values="800;1200;800" dur="3s" repeatCount="indefinite"/>
+    </rect>
+    
+    <text x="700" y="640" text-anchor="middle" fill="#00FFAA" font-size="18" font-weight="bold">
+      📊 Current Progress: 67% Complete • Next: Agentic AI
+    </text>
+  </g>
+
+  <!-- Timeline -->
+  <g>
+    <text x="700" y="700" text-anchor="middle" fill="#888" font-size="14" font-family="Arial">
+      <tspan fill="#00D4FF">Q1:</tspan> C++ → C# → DSA • 
+      <tspan fill="#00D4FF">Q2:</tspan> HTML → CSS → React • 
+      <tspan fill="#00D4FF">Q3:</tspan> Git → Docker • 
+      <tspan fill="#00FFAA">Q4:</tspan> Agentic AI → AI Engineering
+    </text>
+  </g>
+
+  <!-- Footer -->
+  <text x="700" y="780" font-size="14" font-family="Arial" text-anchor="middle" fill="#666">
+    🌟 Sequential Learning Path • Ghulam Habib • 
+    <tspan fill="#00FFAA">2024 Roadmap</tspan>
+  </text>
+
+  <!-- Animated Connection Lines -->
+  <g stroke="#00ff88" stroke-width="2" fill="none" marker-end="url(#techArrow)" stroke-dasharray="5,3">
+    <path d="M145 250 L255 250">
+      <animate attributeName="stroke-dashoffset" from="0" to="8" dur="1s" repeatCount="indefinite"/>
+    </path>
+    <path d="M345 250 L455 250">
+      <animate attributeName="stroke-dashoffset" from="0" to="8" dur="1s" repeatCount="indefinite" begin="0.1s"/>
+    </path>
+    <path d="M545 250 L655 250">
+      <animate attributeName="stroke-dashoffset" from="0" to="8" dur="1s" repeatCount="indefinite" begin="0.2s"/>
+    </path>
+    <path d="M745 250 L855 250">
+      <animate attributeName="stroke-dashoffset" from="0" to="8" dur="1s" repeatCount="indefinite" begin="0.3s"/>
+    </path>
+    <path d="M945 250 L1055 250">
+      <animate attributeName="stroke-dashoffset" from="0" to="8" dur="1s" repeatCount="indefinite" begin="0.4s"/>
+    </path>
+    <path d="M145 450 L255 450">
+      <animate attributeName="stroke-dashoffset" from="0" to="8" dur="1s" repeatCount="indefinite" begin="0.5s"/>
+    </path>
+    <path d="M445 450 L555 450">
+      <animate attributeName="stroke-dashoffset" from="0" to="8" dur="1s" repeatCount="indefinite" begin="0.6s"/>
+    </path>
+    <path d="M745 450 L855 450">
+      <animate attributeName="stroke-dashoffset" from="0" to="8" dur="1s" repeatCount="indefinite" begin="0.7s"/>
+    </path>
+    <path d="M1045 450 L1155 450">
+      <animate attributeName="stroke-dashoffset" from="0" to="8" dur="1s" repeatCount="indefinite" begin="0.8s"/>
+    </path>
+  </g>
+</svg>
