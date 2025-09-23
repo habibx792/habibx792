@@ -1,9 +1,9 @@
-name: Generate Snake Game
+name: 🐍 Generate GitHub Contributions Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
+    - cron: "0 0 * * *"  # Run daily at midnight
+  workflow_dispatch:     # Manual trigger
 
 jobs:
   generate-snake:
@@ -12,18 +12,18 @@ jobs:
       contents: write
     
     steps:
-      - name: Checkout repository
+      - name: 🚀 Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate snake animation
+      - name: 🐍 Generate GitHub contributions snake
         uses: Platane/snk@master
         with:
           github_user_name: habibx792
-          outputs: dist/snake.svg
+          outputs: dist/github-snake.svg
           svg_out: true
 
-      - name: Commit snake.svg
+      - name: 💾 Commit and push
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "Update snake animation"
-          file_pattern: dist/snake.svg
+          commit_message: "🐍 Update GitHub contributions snake"
+          file_pattern: dist/github-snake.svg
