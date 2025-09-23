@@ -206,4 +206,114 @@ Integrated Excel report exports with ClosedXML.
 
 ✨ My design philosophy:
 
-"Design is not just what it looks like, but how it works." – Steve Jobs
+"Design is not just what it looks like, but how it works." – Steve Jobs 
+🧑‍💻 Skills Breakdown
+<p align="center"> <img src="https://i.ibb.co/jhQXH2R/skills.gif" width="500" alt="Skills Animation"/> </p>
+🔹 Programming Languages
+
+🟦 C++ (DSA, STL, OOP, Competitive Programming)
+
+🟨 JavaScript / TypeScript (Frontend + Backend)
+
+🟪 C# (Windows Forms, Enterprise Apps)
+
+🟧 Python (AI/ML, Data Science, Scripting)
+
+🟩 SQL (Procedures, Transactions, Joins, Analytics)
+
+🔹 Frameworks & Libraries
+
+⚛ React, Next.js
+
+🌀 TailwindCSS, Bootstrap
+
+☁️ Firebase, Node.js, Express
+
+🖥️ .NET, ASP.NET Core
+
+📊 Matplotlib, Pandas
+
+🔹 Tools & Platforms
+
+🐧 Linux (Ubuntu, Shell scripting)
+
+🐳 Docker
+
+☁️ AWS, Firebase
+
+📂 Git, GitHub Actions, CI/CD
+
+📈 Career Roadmap
+<p align="center"> <img src="https://i.ibb.co/F5SCrM2/roadmap.gif" width="600" alt="Career Roadmap"/> </p>
+🔹 2022 – 2023
+
+Started BS Software Engineering 🎓
+
+Learned C++, DSA, SQL basics
+
+Built mini projects with C++ and C#
+
+🔹 2024
+
+Advanced into OOP, SQL, Git, Tailwind, React
+
+Completed Academy Management System project
+
+Studied Probability & Statistics, HRM, DBMS
+
+🔹 2025 (Current)
+
+Building Meter Reading App (Flutter + Firebase)
+
+Mastering Full-Stack + Cloud (AWS, Docker, GitHub Actions)
+
+Contributing to Open Source 🚀
+
+🔹 Future Goals
+
+Specialize in AI + Cloud
+
+Build a startup product 💡
+
+Mentor juniors in Programming + Career Growth
+
+🧭 Coding Philosophy
+<p align="center"> <img src="https://i.ibb.co/NLZc7rW/philosophy.gif" width="500" alt="Coding Philosophy"/> </p>
+
+✨ Principles I follow:
+
+Clean Code – readable, maintainable, scalable.
+
+KISS – Keep It Simple, Stupid.
+
+DRY – Don’t Repeat Yourself.
+
+YAGNI – You Aren’t Gonna Need It.
+
+Test Early – debug before it’s too late.
+
+💡 Quote I live by:
+
+"Programs must be written for people to read, and only incidentally for machines to execute." – Harold Abelson
+
+🎮 Fun Zone
+<p align="center"> <img src="https://i.ibb.co/HCYkLzH/fun-zone.gif" width="500" alt="Fun Zone"/> </p>
+🔹 Games I Play
+
+⚔️ PUBG
+
+⚽ FIFA
+
+🚗 NFS
+
+🎮 Chess
+
+🔹 Hobbies
+
+📝 Blogging
+
+🎧 Music
+
+📚 Reading Tech Books
+
+🏋️ Gym
