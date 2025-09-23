@@ -189,18 +189,7 @@
 ---
 # 🖼️ Developer Gallery  
 
-<p align="center">
-  <!-- Developer typing -->
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="400" alt="developer coding"/>
-  
-  <!-- Cool terminal animation -->
-  <img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="400" alt="terminal hacking"/>
-</p>
-
-<p align="center">
-  <!-- Funny coding stress -->
-  <img src="https://media.giphy.com/media/26n7b7PjSOZJwVCmY/giphy.gif" width="400" alt="funny coding"/>
-  
+<p align="center"> <img src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" width="400" alt="coding gif"/> <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="400" alt="animation"/> </p>
   <!-- Futuristic AI coding animation -->
  
 
