@@ -1,10 +1,6 @@
 <!-- Profile Header with Animated Typing -->
 <h1 align="center">👋 Hi, I'm <span style="color:#0e75b6;">Ghulam Habib</span></h1>
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=0E75B6&center=true&vCenter=true&width=600&lines=💻+Software+Engineer;🌐+Full+Stack+Developer;🤖+AI+%26+ML+Enthusiast;🇵🇰+From+Pakistan"  />
-  </a>
-</p>
+
 
 <!-- Banner / GIF -->
 <p align="center">
