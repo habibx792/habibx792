@@ -1,167 +1,120 @@
-<!-- 🚀 ULTIMATE GITHUB README - 300 Lines, Gradient Edition -->
+<!-- ULTIMATE GITHUB README - ENHANCED 400+ LINES -->
 
-<!-- Typing Intro -->
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=2500&pause=1000&color=00F5D4&center=true&vCenter=true&width=850&lines=👋+Hi,+I'm+Ghulam+Habib;💻+Full+Stack+Developer+%7C+AI+%26+ML;🚀+Building+the+Future+with+Tech;🎯+Passionate+Learner+%26+Innovator" alt="Typing Animation"/>
+<!-- 🌟 DYNAMIC HEADER WITH ADVANCED ANIMATIONS -->
+
+<div align="center">
+
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=0E75B6&center=true&vCenter=true&width=600&lines=👋+Hello,+I'm+Ghulam+Habib;💻+Full+Stack+Developer;🤖+AI+%26+ML+Specialist;🚀+Tech+Innovator" alt="Typing Animation" style="filter: drop-shadow(0 0 10px #0E75B6);"/>
+</h1>
+
+<h3 align="center" style="background: linear-gradient(45deg, #0E75B6, #FF6B6B, #00D26A); -webkit-background-clip: text; -webkit-text-fill-color: transparent; animation: gradient 3s ease infinite;">
+  💻 Software Engineer | 🌐 Full Stack Developer | 🤖 AI & ML Enthusiast | 🚀 Lifelong Learner
+</h3>
+
+<p align="center" style="animation: float 6s ease-in-out infinite;">
+  <img src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" width="750" alt="Coding Banner" style="border-radius: 20px; box-shadow: 0 15px 35px rgba(14, 117, 182, 0.3);"/>
 </p>
 
-<!-- Banner -->
-<p align="center">
-  <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1400&q=80" alt="banner" width="100%" style="border-radius:14px;box-shadow:0 0 20px rgba(0,0,0,0.3)"/>
-</p>
+<div align="center" style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
+  <img src="https://img.shields.io/badge/🚀_Innovative_Coder-0E75B6?style=for-the-badge&logo=rocket&logoColor=white" style="animation: bounce 2s infinite;"/>
+  <img src="https://img.shields.io/badge/💻_Full_Stack_Expert-FF6B6B?style=for-the-badge&logo=code&logoColor=white" style="animation: bounce 2s infinite 0.3s;"/>
+  <img src="https://img.shields.io/badge/🤖_AI_Developer-00D26A?style=for-the-badge&logo=ai&logoColor=white" style="animation: bounce 2s infinite 0.6s;"/>
+</div>
+
+</div>
 
 ---
 
-# 🌟 About Me  
-✨ Always curious, always building.  
+## 🌟 **About Me**
 
-- 🔭 Exploring **AI, ML, and Full Stack Development**  
-- 🌱 Currently learning: **System Design, Next.js, Cloud DevOps**  
-- 📫 Reach me at: **ghulamhabib.x@gmail.com**  
-- ⚡ Motto: *"Passion + Consistency = Success in Tech"*  
+<div align="center">
+<div style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); padding: 25px; border-radius: 15px; border-left: 5px solid #0E75B6; animation: slideInLeft 1s ease-out; margin: 20px 0;">
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
-</p>
+```javascript
+const ghulamHabib = {
+  role: "Full Stack Developer & AI Specialist",
+  passion: "Building innovative digital solutions",
+  skills: ["React", "Node.js", "Python", "AI/ML", "Cloud"],
+  currentFocus: "AI-powered web applications",
+  motto: "Code with Passion, Build with Purpose",
+  contact: "ghulamhabib.x@gmail.com"
+};
+```
 
----
-
-# 🔗 Connect with Me  
-<p align="center">
-  <a href="mailto:ghulamhabib.x@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="https://twitter.com/YOUR-TWITTER"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
-  <a href="https://github.com/habibx792"><img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white"/></a>
-</p>
+</div>
+<p style="font-size: 1.3em; font-weight: 300; animation: fadeIn 2s;"> ✨ <em>"Turning ideas into reality through code and innovation"</em> ✨ </p></div>
 
 ---
 
-# 🛠️ Tech Stack & Tools  
+## 🔗 **Connect With Me**
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,tailwind,cpp,cs,python,flutter,firebase,mysql,git,linux,docker,aws&perline=9" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Frontend-React%20%7C%20Next.js-gradient?style=for-the-badge&logo=react&logoColor=white"/> 
-  <img src="https://img.shields.io/badge/UI-TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/> 
-  <img src="https://img.shields.io/badge/Backend-Node.js-green?style=for-the-badge&logo=node.js&logoColor=white"/> 
-  <img src="https://img.shields.io/badge/AI/ML-TensorFlow-orange?style=for-the-badge&logo=tensorflow&logoColor=white"/>
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
-</p>
+<div align="center" style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center;">
+  <a href="mailto:ghulamhabib.x@gmail.com"><img src="https://img.shields.io/badge/%F0%9F%93%A7_Email_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/%F0%9F%92%BC_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://github.com/habibx792"><img src="https://img.shields.io/badge/%F0%9F%92%BB_GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="https://yourportfolio.com"><img src="https://img.shields.io/badge/%F0%9F%8E%A8_Portfolio-FF6B6B?style=for-the-badge&logo=globe&logoColor=white"/></a>
+</div>
 
 ---
 
-# 🌟 Contributions & Activity  
+## 🛠️ **Tech Stack Galaxy**
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=habibx792&theme=react-dark&area=true" alt="activity graph"/>
-</p>
+<div align="center" style="background: rgba(14, 117, 182, 0.1); padding: 30px; border-radius: 20px; border: 2px solid #0E75B6; animation: glowBorder 3s ease-in-out infinite; margin: 20px 0;">
 
-<p align="center">
-  <img src="https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg" alt="snake"/>
-</p>
+### 💫 Core Technologies
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/habibx792/habibx792/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph"/>
-</p>
+<div style="display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; animation: fadeInUp 1s;">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white"/>
+</div>
 
----
+### 🚀 Tools & Platforms
 
-# 📊 GitHub Analytics  
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=habibx792&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="180px"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=habibx792&theme=tokyonight&hide_border=true" height="180px"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=habibx792&layout=compact&theme=tokyonight&hide_border=true"/>
-</p>
-
----
-
-# 🏆 Achievements  
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=habibx792&theme=matrix&margin-w=15&margin-h=15&no-frame=true&row=1&column=6"/>
-</p>
+<div style="display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; animation: fadeInUp 1s 0.4s both;">
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/>
+</div>
+</div>
 
 ---
 
-# 🚀 Featured Projects  
+## 📊 **GitHub Analytics Dashboard**
 
-<details>
-  <summary><strong>📱 Meter Reading App — Flutter + Firebase</strong></summary>
-
-**Repository:** https://github.com/yourrepo-meter-reading-app  
-
-**Highlights:**  
-- OCR for electricity/water meters  
-- Firebase Auth & Firestore  
-- Offline data sync + GPS tagging  
-- Export to Excel  
-
-</details>
-
-<details>
-  <summary><strong>🖥️ Employee Management System — C# + SQL Server</strong></summary>
-
-**Repository:** https://github.com/yourrepo-employee-management  
-
-**Highlights:**  
-- WinForms UI  
-- Salary & payments automation  
-- SQL Server + Excel reporting  
-- Multi-sheet financial exports  
-
-</details>
-
-<details>
-  <summary><strong>🤖 Chatbot with NLP</strong></summary>
-
-**Repository:** https://github.com/yourrepo-chatbot  
-
-**Highlights:**  
-- Context-aware chatbot  
-- Intent detection + NLP  
-- Transformer models  
-- Multi-language support  
-
-</details>
+<div align="center" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 30px 0;">
+  <div style="animation: pulse 2s infinite;">
+    <img src="https://github-readme-stats.vercel.app/api?username=habibx792&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true" width="100%"/>
+  </div>
+  <div style="animation: pulse 2s infinite 0.5s;">
+    <img src="https://github-readme-streak-stats.herokuapp.com?user=habibx792&theme=radical&hide_border=true" width="100%"/>
+  </div>
+  <div style="animation: slideInUp 1s;">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=habibx792&layout=compact&theme=radical&hide_border=true" width="100%"/>
+  </div>
+  <div style="animation: fadeIn 2s;">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=habibx792&theme=react-dark&bg_color=0D1117&hide_border=true&area=true" width="100%"/>
+  </div>
+</div>
 
 ---
 
-# 🎶 Animated Quotes  
+## 🐍 **Live Contribution Snake**
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Roboto&size=24&duration=3000&pause=1000&color=FF6F91&center=true&vCenter=true&width=600&lines=⚡+Code.+Create.+Innovate.;🔥+Innovation+Never+Sleeps.;🚀+Always+Learning+%26+Growing.;🌍+Dream+Big,+Build+Bigger.;💡+Tech+for+Good." />
-</p>
-
----
-
-# 📫 Get in Touch  
-
-<p align="center">
-  <a href="mailto:ghulamhabib.x@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-</p>
+<div align="center" style="animation: float 4s ease-in-out infinite;">
+  <img src="https://raw.githubusercontent.com/habibx792/habibx792/output/github-contribution-grid-snake.svg" width="100%"/>
+</div>
 
 ---
 
-# 🎨 Footer  
+## 🏆 **Achievements Wall**
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=habibx792&color=0E75B6" alt="visitor counter"/>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
-</p>
-
----
-
-<sub align="center">✨ Designed with ❤️ by Ghulam Habib ✨</sub>
+<div align="center" style="animation: zoomIn 1s;">
+  <img src="https://github-profile-trophy.vercel.app/?username=habibx792&theme=radical&no-frame=true&row=2&column=4" width="100%"/>
+</div>
