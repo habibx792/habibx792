@@ -105,10 +105,11 @@
   </g>
 
   <!-- Main Title -->
-  <text x="700" y="80" font-size="48" font-family="Arial Black" text-anchor="middle" fill="#00D4FF" filter="url(#neonGlow)">
-    🚀 MY TECH JOURNEY 2024
-    <animate attributeName="fill" values="#00D4FF;#00FFAA;#FF6B6B;#00D4FF" dur="4s" repeatCount="indefinite"/>
-  </text>
+ <text x="700" y="80" font-size="56" font-family="Arial Black" text-anchor="middle"
+      fill="url(#aiEngineeringGrad)" stroke="#00FFFF" stroke-width="2" filter="url(#neonGlow)">
+  🚀 MY TECH JOURNEY 2024
+  <animate attributeName="fill" values="#FF6B6B;#4ECDC4;#45B7D1;#FF6B6B" dur="4s" repeatCount="indefinite"/>
+</text>
   
   <text x="700" y="120" font-size="18" font-family="Arial" text-anchor="middle" fill="#888">
     C++ → C# → DSA → HTML → CSS → React → Git → Docker → Agentic AI → AI Engineering
