@@ -159,3 +159,51 @@ I also mentor developers, contribute to open-source, and enjoy turning research 
 <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
 
 </div>
+
+🌍 Open Source & Community
+<p align="center"> <img src="https://i.ibb.co/6n9QzXv/open-source.gif" width="500" alt="Open Source"/> </p>
+🤝 Contributions
+
+I believe in sharing knowledge and building together.
+
+📝 Contributor in multiple open-source repositories.
+
+🛠️ Created custom libraries & tools for developers.
+
+🌱 Always open for collaboration.
+
+🎯 Projects Showcase
+<p align="center"> <img src="https://i.ibb.co/NrCFyG1/projects-showcase.gif" width="600" alt="Projects Showcase"/> </p>
+🚀 Featured Projects
+🔹 AI Chatbot 🤖
+
+Built using Python + TensorFlow.
+
+Integrated with Telegram API.
+
+Supports multi-language NLP.
+
+🔹 Portfolio Website 🌐
+
+Developed with React + TailwindCSS.
+
+Fully responsive & animated.
+
+Dark / Light mode included.
+
+🔹 Academy Management System 🏫
+
+Made with C# WinForms + SQL Server.
+
+Features: student fees, teacher salaries, reports, analytics.
+
+Integrated Excel report exports with ClosedXML.
+
+📊 GitHub Analytics
+<p align="center"> <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=HABIB-X&theme=radical" alt="GitHub Profile Summary"/> </p> <p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=HABIB-X&show_icons=true&theme=tokyonight" height="180"/> <img src="https://github-readme-streak-stats.herokuapp.com?user=HABIB-X&theme=tokyonight" height="180"/> </p> <p align="center"> <img src="https://github-contribution-stats.vercel.app/api/?username=HABIB-X" alt="Contribution Graph"/> </p>
+🖼️ Design Gallery
+<p align="center"> <img src="https://i.ibb.co/0jvxWCF/design-ui.gif" width="400" alt="UI Design"/> <img src="https://i.ibb.co/HPDsmYk/design2.gif" width="400" alt="UI Design 2"/> </p>
+
+✨ My design philosophy:
+
+"Design is not just what it looks like, but how it works." – Steve Jobs
