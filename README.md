@@ -786,8 +786,82 @@ Each milestone builds toward making it a **professional, scalable, and community
 
 ---
 
+<!-- =======================
+        🤝 Part 13: Contribution Guidelines
+======================= -->
+
+# 🤝 Contribution Guidelines  
+
+We love contributions from the community! Whether it's fixing a bug, improving documentation, or suggesting a new feature, your help is welcome.  
+
+---
+
+## 📝 How to Contribute  
+
+1. **Fork** the repository  
+2. **Clone** your fork locally  
+   ```bash
+   git clone https://github.com/your-username/your-project.git
+
+<!-- =======================
+        🔒 Part 14: Security Policy
+======================= -->
+
+# 🔒 Security Policy  
+
+We take security seriously and appreciate your efforts to responsibly disclose vulnerabilities.  
+
+---
+
+## 📌 Supported Versions  
+
+| Version       | Supported |
+|---------------|-----------|
+| ✅ Latest      | Yes       |
+| ⚠️ Older (LTS) | Limited   |
+| ❌ Legacy      | No        |
+
+---
+
+## 🐛 Reporting a Vulnerability  
+
+If you discover a vulnerability:  
+
+1. **Do NOT open a public issue**  
+2. **Contact us directly** via email: `security@yourproject.com`  
+3. Provide details:  
+   - Steps to reproduce  
+   - Potential impact  
+   - Suggested fix (if possible)  
+
+We’ll acknowledge your report within **48 hours** and provide a timeline for resolution.  
+
+---
+
+## ✅ Best Practices for Contributors  
+
+- Always **sanitize user inputs**  
+- Avoid using **deprecated APIs**  
+- Use **HTTPS** for all external requests  
+- Never commit **secrets, API keys, or passwords**  
+- Follow **principle of least privilege** when coding  
+
+---
+
+## 🛡️ Security Workflow  
+
+mermaid
+flowchart TD
+    A[Report Vulnerability] --> B[Security Team Review]
+    B --> C[Risk Assessment]
+    C --> D[Patch Development]
+    D --> E[Internal Testing]
+    E --> F[Release Security Fix]
+    F --> G[Public Disclosure]
+
+
 ### 🌀 Animated Roadmap Flow
-```mermaid
+mermaid
 graph TD
     A[Phase 1 ✅ Foundation] --> B[Phase 2 🔄 Enhancement]
     B --> C[Phase 3 👥 Community]
@@ -795,3 +869,83 @@ graph TD
     D --> E[Phase 5 🚀 Deployment]
     E --> F[🌟 Long-Term Vision]
 
+<!-- =======================
+        📜 Part 15: Code of Conduct
+======================= -->
+
+# 📜 Contributor Covenant Code of Conduct  
+
+We pledge to make participation in our project and community a **harassment-free experience** for everyone.  
+Our community values **respect, collaboration, and growth**. 🌱  
+
+---
+
+## 💡 Our Standards  
+
+### ✅ Positive behavior includes:  
+- 💬 Using welcoming and inclusive language  
+- 🤝 Respecting different viewpoints and experiences  
+- 🙌 Accepting constructive criticism gracefully  
+- 🚀 Focusing on what is best for the community  
+- 🌍 Showing empathy towards other community members  
+
+### ❌ Unacceptable behavior includes:  
+- 🚫 Trolling, insulting/derogatory comments  
+- 🚫 Public or private harassment  
+- 🚫 Publishing others’ private information  
+- 🚫 Other conduct deemed inappropriate in a professional setting  
+
+---
+
+## 👩‍⚖️ Our Responsibilities  
+
+- Maintainers enforce standards of acceptable behavior  
+- They take corrective action in response to unacceptable conduct  
+- They have the right to remove, edit, or reject comments, commits, code, issues, and contributions that violate this Code  
+
+---
+
+## 📝 Scope  
+
+This Code of Conduct applies both:  
+- In all **project spaces** (GitHub, discussions, issues, PRs)  
+- In **public spaces** when someone is representing the project  
+
+---
+
+## 🚩 Enforcement  
+
+- Instances of abusive, harassing, or unacceptable behavior may be reported to:  
+  📧 `conduct@yourproject.com`  
+- Reports will be reviewed within **48 hours**  
+- Confidentiality will be maintained for reporters  
+
+---
+
+## 🛠️ Enforcement Guidelines  
+
+### 1. 🟢 Correction  
+**Impact:** Inappropriate language or behavior.  
+**Consequence:** Private warning.  
+
+### 2. 🟡 Warning  
+**Impact:** Single violation with more impact.  
+**Consequence:** Warning, possible consequences for future incidents.  
+
+### 3. 🟠 Temporary Ban  
+**Impact:** Repeated or significant violations.  
+**Consequence:** Temporary ban from participation.  
+
+### 4. 🔴 Permanent Ban  
+**Impact:** Demonstrated pattern of harassment or hostility.  
+**Consequence:** Permanent ban.  
+
+---
+
+## 🌍 Attribution  
+
+This Code of Conduct is adapted from the **[Contributor Covenant](https://www.contributor-covenant.org/)**, version 2.1.  
+
+---
+
+✨ Let’s build a community where **everyone feels safe, respected, and inspired**! 🚀  
