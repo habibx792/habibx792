@@ -569,7 +569,7 @@ Here are some of my best works that combine **design, functionality, and scalabi
 
 <p align="center">
   
-```mermaid
+mermaid
 %% Skills Visualization
 pie showData
   title Tech Confidence Levels
