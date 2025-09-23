@@ -110,9 +110,8 @@
 
 # 🐍 Contribution Snake  
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/habibx792/habibx792/output/github-contribution-grid-snake.svg" alt="snake gif"/>
-</p>
+![Snake animation](https://github.com/habibx792/habibx792/blob/main/dist/snake.svg)
+
 
 ---
 
