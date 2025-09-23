@@ -46,6 +46,11 @@
   <img src="https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg" alt="snake animation" style="max-width: 100%; border-radius: 12px; box-shadow: 0px 0px 15px rgba(14, 117, 182, 0.6);" />
 </p>
 
+<!-- 3D Contribution Calendar -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/habibx792/habibx792/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" width="100%"/>
+</p>
+
 </div>
 
 ---
@@ -83,7 +88,7 @@
 
 ## 🎶 Fun Animation  
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Roboto&size=24&duration=3000&pause=1000&color=FF5733&center=true&vCenter=true&width=600&lines=⚡+Code.+Create.+Innovate.;🔥+Building+the+Future+with+Tech.;🚀+Always+Learning%2C+Always+Growing." />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Roboto&size=24&duration=3000&pause=1000&color=FF5733&center=true&vCenter=true&width=600&lines=⚡+Code.+Create.+Innovate.;🔥+Building+the+Future+with+Tech.;🚀+Always+Learning%2C+Always+Growing.;🌍+Dream+Big%2C+Build+Bigger.;💡+Innovation+Never+Sleeps." />
 </p>
 
 ---
