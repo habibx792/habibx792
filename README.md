@@ -130,4 +130,79 @@
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/water.png" width="100%"/>
 </p>
 
+<!-- 🚀 Part 3: Projects + Roadmap + Blog + Gallery -->
+
+# 🚀 Featured Projects  
+
+### 🌐 Full Stack Applications  
+- 🔹 [📱 Meter Reading App (Flutter + Firebase)](https://github.com/habibx792/meter-reading-app)  
+- 🔹 [🖥️ Employee Management System (C# + SQL Server)](https://github.com/habibx792/employee-management)  
+- 🔹 [🌍 Portfolio Website (React + Tailwind + Vercel)](https://github.com/habibx792/portfolio)  
+
+### 🤖 AI & ML Projects  
+- 🔹 [🤖 Chatbot with NLP (Python + Transformers)](https://github.com/habibx792/chatbot-nlp)  
+- 🔹 [🖼️ Image Classifier (TensorFlow + Keras)](https://github.com/habibx792/image-classifier)  
+- 🔹 [🎤 Voice Assistant (Speech Recognition + Python)](https://github.com/habibx792/voice-assistant)  
+
+---
+
+# 🛣️ My Developer Roadmap  
+
+<p align="center">
+  <img src="https://github.com/habibx792/habibx792/blob/main/roadmap.svg" alt="roadmap svg" width="100%"/>
+</p>
+
+📌 **Current Focus (2025)**  
+- ⚡ Advance my AI/ML expertise  
+- 🌐 Build scalable SaaS projects  
+- ☁️ Master cloud computing (AWS, Docker, Kubernetes)  
+- 🎯 Become a top contributor in open-source  
+
+📌 **Next Goals**  
+- 🚀 Launch my own startup product  
+- 📖 Publish blogs & tutorials regularly  
+- 🏆 Get certified in AI/Cloud  
+- 🎥 Start a YouTube channel for tech tutorials  
+
+---
+
+# 📜 Certifications  
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Certified%20AI%20Developer-00F5D4?style=for-the-badge&logo=googlecloud&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Full%20Stack%20Developer-FFD700?style=for-the-badge&logo=react&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Cloud%20Practitioner-FF6F61?style=for-the-badge&logo=aws&logoColor=white"/>
+</p>
+
+---
+
+# ✍️ Latest Blog Posts  
+
+<!-- BLOG-POST-LIST:START -->
+- [🚀 How I Built My First AI Chatbot](https://yourblog.com/ai-chatbot)  
+- [🎨 Designing Stunning Portfolio Websites with React](https://yourblog.com/react-portfolio)  
+- [☁️ AWS vs Azure vs GCP: Which One to Choose?](https://yourblog.com/cloud-comparison)  
+- [📚 Top 10 Resources to Learn Machine Learning](https://yourblog.com/ml-resources)  
+<!-- BLOG-POST-LIST:END -->
+
+---
+
+# 🖼️ Developer Gallery  
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" width="400" alt="coding gif"/>
+  <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="400" alt="animation"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/habibx792/habibx792/blob/main/gallery/project1.png" width="45%" />
+  <img src="https://github.com/habibx792/habibx792/blob/main/gallery/project2.png" width="45%" />
+</p>
+
+---
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%"/>
+</p>
+
 ---
