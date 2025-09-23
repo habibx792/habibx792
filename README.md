@@ -1,157 +1,33 @@
-<!-- ================================================== -->
-<!-- PART 1 — HERO, BRANDING & LIVE DASHBOARD (Paste at TOP of README) -->
-<!-- Designed for: Ghulam Habib — ultra-polished, animated, accessible -->
-<!-- Follow-up: After you paste this, reply "PART1 DONE" and I'll deliver PART 2 -->
-<!-- ================================================== -->
+<!-- =======================
+🔥 PART 1 – HERO SECTION
+======================= -->
 
-<!--
-  Notes:
-  - This section uses hosted images from Unsplash and your GitHub avatar so links remain available.
-  - Replace placeholders (YOUR-LINKEDIN, YOUR-TWITTER, YOUR-PORTFOLIO) with your real URLs.
-  - All images include alt text for accessibility.
-  - Keep this block at the very top of README so animations & branding load first.
--->
-
-<!-- ========== HERO / ANIMATED HEADER ========== -->
 <div align="center">
 
-  <!-- Animated typing header (high-contrast color) -->
-  <h1 align="center" style="margin:0;padding:0;">
-    <img
-      src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=44&duration=3000&pause=900&color=00F5D4&center=true&vCenter=true&width=1000&lines=👋+Hi,+I'm+Ghulam+Habib;💻+Full+Stack+AI+Developer;🚀+Tech+Innovator;🎯+Passionate+Builder"
-      alt="Typing: Hi, I'm Ghulam Habib — Full Stack AI Developer — Tech Innovator" />
+  <!-- Animated Typing Header -->
+  <h1>
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=00F5D4&center=true&vCenter=true&width=800&lines=👋+Hi,+I'm+Ghulam+Habib;💻+Full+Stack+Developer;🤖+AI+%26+ML+Enthusiast;🚀+Tech+Innovator" alt="Typing Intro" />
   </h1>
 
-  <!-- Subheader: gradient text using image-based trick for high compatibility -->
-  <p align="center" style="margin-top:10px;margin-bottom:6px;font-size:18px;line-height:1.4;">
-    <strong style="color:#00F5D4">Full-Stack • AI/ML • Cloud</strong>
-    &nbsp;•&nbsp;
-    <span style="color:#FF6F61">Open Source • Automation • Creative Coding</span>
+  <!-- Banner Image -->
+  <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1400&q=80" alt="Coding workspace" width="100%" style="border-radius:12px;max-width:1000px;" />
+
+  <!-- Tagline -->
+  <h3>💻 Software Engineer | 🌐 Full Stack Developer | 🤖 AI Enthusiast</h3>
+
+  <!-- Social Badges -->
+  <p>
+    <a href="mailto:ghulamhabib.x@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+    <a href="https://github.com/habibx792"><img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white" /></a>
+    <a href="https://linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   </p>
 
-  <!-- Best header image (high-quality Unsplash fallback) -->
-  <!-- If you prefer a local image, upload it to /assets/header.jpg and replace the src below -->
-  <p align="center" style="margin:18px 0 6px 0;">
-    <img
-      src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1600&q=80"
-      alt="Professional coding workspace with laptop and code on screen — banner"
-      width="100%"
-      style="max-width:1200px;border-radius:14px;box-shadow:0 20px 50px rgba(0,0,0,0.35);" />
-  </p>
-
-  <!-- Quick intro & mission -->
-  <p align="center" style="max-width:900px;margin:12px auto 0px auto;font-size:16px;color:#c9d1d9;">
-    I design and build performant web applications and AI-powered systems — focused on usability,
-    accessibility, and scale. Currently exploring advanced system design, MLOps, and real-time web.
-  </p>
-
-  <!-- Glowing CTA badges (clickable) -->
-  <p align="center" style="margin-top:14px;">
-    <a href="mailto:ghulamhabib.x@gmail.com" aria-label="Email Ghulam Habib">
-      <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email badge" />
-    </a>
-    <a href="https://github.com/habibx792" aria-label="GitHub profile">
-      <img src="https://img.shields.io/badge/GitHub-habibx792-171515?style=for-the-badge&logo=github&logoColor=white" alt="GitHub badge" />
-    </a>
-    <a href="https://linkedin.com/in/YOUR-LINKEDIN" aria-label="LinkedIn profile">
-      <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn badge" />
-    </a>
-    <a href="https://YOUR-PORTFOLIO.com" aria-label="Portfolio website">
-      <img src="https://img.shields.io/badge/Portfolio-Visit-FF6F61?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio badge" />
-    </a>
-  </p>
-
-  <!-- Profile snapshot: avatar + quick facts -->
-  <table align="center" style="max-width:1000px;margin-top:18px;">
-    <tr>
-      <td align="center" width="150" valign="top" style="padding-right:18px;">
-        <img src="https://github.com/habibx792.png" alt="Ghulam Habib avatar" width="140" style="border-radius:50%;border:6px solid rgba(0,245,212,0.08);box-shadow:0 8px 24px rgba(0,0,0,0.35);" />
-      </td>
-      <td valign="top" style="text-align:left;">
-        <h2 style="margin:0 0 6px 0;color:#e6eef8;">Ghulam Habib</h2>
-        <p style="margin:0 0 8px 0;color:#b9c6d6;">
-          Software Engineer • Full-Stack Developer • AI/ML Enthusiast<br/>
-          Based in Pakistan • Open for collaborations & mentoring
-        </p>
-
-        <!-- Quick facts with small badges -->
-        <p style="margin:8px 0 0 0;">
-          <img src="https://img.shields.io/badge/🌍+Timezone-Pakistan%20(UTC%2B5)-00F5D4?style=flat-square" alt="timezone" />
-          <img src="https://img.shields.io/badge/💼+Status-Available%20for%20work-FF6F61?style=flat-square" alt="available" />
-          <img src="https://img.shields.io/badge/📬+Response-Within%2024%20hrs-06B6D4?style=flat-square" alt="response time" />
-        </p>
-      </td>
-    </tr>
-  </table>
-
-  <!-- subtle divider -->
-  <p align="center" style="margin:18px 0 6px 0;">
-    <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%" />
-  </p>
+  <!-- Quick GitHub Stats -->
+  <img src="https://github-readme-stats.vercel.app/api?username=habibx792&show_icons=true&theme=tokyonight&hide_border=true" height="150" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=habibx792&theme=tokyonight&hide_border=true" height="150" />
 
 </div>
 
-<!-- ========== LIVE DASHBOARD PREVIEW ========== -->
-<!-- Grid of dynamic widgets (arranged for readability & responsive display) -->
-<div align="center" style="max-width:1100px;margin:auto;">
-
-  <!-- 3-card metrics row -->
-  <table width="100%" style="border-collapse:collapse;">
-    <tr>
-      <td align="center" width="33%" style="padding:8px;">
-        <img src="https://github-readme-stats.vercel.app/api?username=habibx792&show_icons=true&theme=tokyonight&count_private=true&line_height=27&hide_border=true"
-             alt="GitHub stats" style="width:100%;max-width:360px;border-radius:12px;box-shadow:0 12px 30px rgba(0,0,0,0.28);" />
-      </td>
-      <td align="center" width="33%" style="padding:8px;">
-        <img src="https://github-readme-streak-stats.herokuapp.com?user=habibx792&theme=tokyonight&hide_border=true" alt="Streak stats"
-             style="width:100%;max-width:360px;border-radius:12px;box-shadow:0 12px 30px rgba(0,0,0,0.28);" />
-      </td>
-      <td align="center" width="33%" style="padding:8px;">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=habibx792&layout=compact&theme=tokyonight&hide_border=true"
-             alt="Top languages" style="width:100%;max-width:360px;border-radius:12px;box-shadow:0 12px 30px rgba(0,0,0,0.28);" />
-      </td>
-    </tr>
-  </table>
-
-  <!-- activity graph (full width, accessible alt text) -->
-  <p style="margin-top:12px;">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=habibx792&theme=react-dark&area=true&hide_border=true"
-         alt="Contribution activity graph for habibx792 (area chart)" style="width:100%;border-radius:12px;box-shadow:0 14px 40px rgba(0,0,0,0.30);" />
-  </p>
-
-  <!-- contribution snake preview (ensure your workflow writes to this path) -->
-  <p style="margin-top:12px;">
-    <img src="https://raw.githubusercontent.com/habibx792/habibx792/main/dist/snake.svg" alt="Contribution snake animation preview" style="width:100%;max-width:1000px;border-radius:12px;box-shadow:0 12px 36px rgba(0,0,0,0.28);" />
-  </p>
-
-</div>
-
-<!-- ========== ACCESSIBLE SUMMARY CARDS (KEY FACTS) ========== -->
-<div align="center" style="max-width:1000px;margin:22px auto 6px auto;display:flex;gap:12px;flex-wrap:wrap;justify-content:center;">
-  <div style="background:linear-gradient(135deg,#062b32,#0a3c3f);padding:12px 18px;border-radius:12px;min-width:220px;box-shadow:0 12px 30px rgba(0,0,0,0.25);">
-    <h4 style="margin:0;color:#e6f7f2;">What I build</h4>
-    <p style="margin:6px 0 0 0;color:#bcdedb;">AI systems • Full-stack apps • Scalable APIs</p>
-  </div>
-
-  <div style="background:linear-gradient(135deg,#2b0833,#3f0a44);padding:12px 18px;border-radius:12px;min-width:220px;box-shadow:0 12px 30px rgba(0,0,0,0.25);">
-    <h4 style="margin:0;color:#ffeef7;">Availability</h4>
-    <p style="margin:6px 0 0 0;color:#ffd9f0;">Open to freelance & long-term collaborations</p>
-  </div>
-
-  <div style="background:linear-gradient(135deg,#00394d,#005f74);padding:12px 18px;border-radius:12px;min-width:220px;box-shadow:0 12px 30px rgba(0,0,0,0.25);">
-    <h4 style="margin:0;color:#e6fbff;">Contact</h4>
-    <p style="margin:6px 0 0 0;color:#cfeff6;">ghulamhabib.x@gmail.com</p>
-  </div>
-</div>
-
-<!-- ========== SMALL FOOTER NOTE FOR PART 1 ========== -->
-<!-- Guidance:
-     • If any widget returns 404 or blank, check username and image path.
-     • To show a live "last updated" badge use a small GitHub Action (I'll provide in Part 10).
-     • Replace YOUR-LINKEDIN / YOUR-PORTFOLIO / YOUR-TWITTER with real links.
--->
-
-<!-- END PART 1 -->
 <!-- ================================================== -->
 <!-- PART 2 — ABOUT, QUICK FACTS, CONTACT & HOW TO COLLABORATE -->
 <!-- Paste this directly BELOW Part 1 in your README.md -->
