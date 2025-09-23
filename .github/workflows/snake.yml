@@ -11,59 +11,18 @@ on:
         description: 'Custom commit message'
         required: false
         default: '🚀 Advanced metrics update'
-      force_rebuild:
-        description: 'Force rebuild all assets'
-        required: false
-        default: 'false'
-        type: boolean
-  push:
-    paths:
-      - '.github/workflows/snake.yml'
-  pull_request:
-    paths:
-      - '.github/workflows/snake.yml'
 
 env:
   OUTPUT_DIR: 'assets/github-insights'
   BRANCH: 'main'
   TIMEZONE: 'Asia/Karachi'
-  CACHE_KEY: 'snake-metrics-${{ github.sha }}'
 
 jobs:
-  setup:
-    name: ⚙️ Environment Setup
-    runs-on: ubuntu-latest
-    outputs:
-      cache-key: ${{ steps.cache.outputs.cache-key }}
-      should-run: ${{ steps.check.outputs.should-run }}
-    steps:
-      - name: 🔍 Check if should run
-        id: check
-        run: |
-          # Skip if only workflow files changed in PR
-          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
-            echo "should-run=false" >> $GITHUB_OUTPUT
-          else
-            echo "should-run=true" >> $GITHUB_OUTPUT
-          fi
-
-      - name: 🗂️ Generate cache key
-        id: cache
-        run: echo "cache-key=${{ env.CACHE_KEY }}-$(date +%Y%m%d)" >> $GITHUB_OUTPUT
-
   generate-snake:
     name: 🎯 Generate Snake Visualization
     runs-on: ubuntu-latest
-    needs: setup
-    if: needs.setup.outputs.should-run == 'true'
     permissions:
       contents: write
-      actions: read
-    
-    strategy:
-      matrix:
-        theme: [light, dark]
-        format: [svg, gif]
     
     steps:
       - name: 🚀 Checkout repository
@@ -71,7 +30,6 @@ jobs:
         with:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
-          ref: ${{ env.BRANCH }}
 
       - name: 📁 Setup output directory
         run: |
@@ -79,236 +37,74 @@ jobs:
           mkdir -p ${{ env.OUTPUT_DIR }}/animations
           mkdir -p ${{ env.OUTPUT_DIR }}/metrics
 
-      - name: 🐍 Generate multi-theme snake graphics
+      - name: 🐍 Generate snake game visualization
         uses: Platane/snk@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: habibx792
           outputs: |
-            ${{ env.OUTPUT_DIR }}/themes/snake-${{ matrix.theme }}.svg?palette=github-${{ matrix.theme }}
-            ${{ env.OUTPUT_DIR }}/animations/snake-${{ matrix.theme }}.gif?palette=github-${{ matrix.theme }}&color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a0ff,#4a88ff
-          svg_out: ${{ matrix.format == 'svg' }}
-          gif_out: ${{ matrix.format == 'gif' }}
+            ${{ env.OUTPUT_DIR }}/snake.svg
+            ${{ env.OUTPUT_DIR }}/snake-dark.svg?palette=github-dark
+            ${{ env.OUTPUT_DIR }}/snake.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a0ff,#4a88ff
 
-      - name: 🎨 Generate gradient snake variants
-        if: matrix.theme == 'light'
-        run: |
-          # Generate additional color variants using curl and image manipulation
-          curl -s "https://github.com/${{ github.repository_owner }}.snk?palette=github-dark&color_snake=ff6b6b&color_dots=4ecdc4,45b7d1,96ceb4,ffeaa7" \
-          -o ${{ env.OUTPUT_DIR }}/themes/snake-gradient.svg
-
-  advanced-metrics:
-    name: 📊 Advanced GitHub Analytics
-    runs-on: ubuntu-latest
-    needs: setup
-    if: needs.setup.outputs.should-run == 'true'
-    permissions:
-      contents: write
-    
-    steps:
-      - name: 🚀 Checkout repository
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: 📈 Generate comprehensive metrics
+      - name: 📊 Generate GitHub metrics
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          user: ${{ github.repository_owner }}
+          user: habibx792
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: ${{ env.TIMEZONE }}
-          config_order: asc
-          
-          # Plugins configuration
           plugin_lines: yes
           plugin_traffic: yes
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-          plugin_languages: yes
-          plugin_habits: yes
-          plugin_followup: yes
-          plugin_topics: yes
-          plugin_achievements: yes
-          plugin_stargazers: yes
-          plugin_people: yes
-          plugin_repositories: yes
-          plugin_introduction: yes
-          
-          # Customization
-          plugin_lines_sections: commits, contributions
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
-          plugin_achievements_threshold: C
-          plugin_achievements_secrets: yes
-          plugin_achievements_display: compact
-          
-          output_name: ${{ env.OUTPUT_DIR }}/metrics/comprehensive-metrics.svg
+          output_name: ${{ env.OUTPUT_DIR }}/github-metrics.svg
 
-      - name: 📊 Generate coding activity heatmap
-        uses: athul/waka-readme@master
-        with:
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          COMMIT_MESSAGE: "📊 Update coding metrics"
-          TIME_RANGE: last_7_days
-          SHOW_TITLE: true
-          SHOW_TIME: true
-          SHOW_TOTAL: true
-          SHOW_MASKED_TIME: false
-
-      - name: 🗂️ Generate repository insights
+      - name: 🔍 Verify generated files
         run: |
-          # Generate additional JSON data for web display
-          curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-          "https://api.github.com/users/${{ github.repository_owner }}/repos?per_page=100&sort=updated" \
-          | jq '.[] | {name, stars: .stargazers_count, forks: .forks_count, language: .language, updated: .updated_at}' \
-          > ${{ env.OUTPUT_DIR }}/metrics/repo-stats.json
+          echo "Generated files:"
+          ls -la ${{ env.OUTPUT_DIR }}/
+          echo "File sizes:"
+          du -h ${{ env.OUTPUT_DIR }}/*
 
-  image-optimization:
-    name: 🖼️ Image Optimization
-    runs-on: ubuntu-latest
-    needs: [generate-snake, advanced-metrics]
-    if: always()
-    
-    steps:
-      - name: 🚀 Checkout repository
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: 🛠️ Install image optimization tools
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y optipng pngquant jpegoptim webp
-
-      - name: 📦 Optimize generated images
-        run: |
-          find ${{ env.OUTPUT_DIR }} -name "*.svg" -exec echo "Optimizing {}" \;
-          find ${{ env.OUTPUT_DIR }} -name "*.gif" -exec gifsicle -O3 {} -o {} \;
-          echo "✅ Image optimization completed"
-
-  quality-assurance:
-    name: ✅ Quality Assurance
-    runs-on: ubuntu-latest
-    needs: [generate-snake, advanced-metrics, image-optimization]
-    if: always()
-    
-    steps:
-      - name: 🔍 Validate generated files
-        run: |
-          echo "📁 Generated files structure:"
-          find ${{ env.OUTPUT_DIR }} -type f -exec ls -la {} \;
-          
-          echo "📊 File sizes:"
-          find ${{ env.OUTPUT_DIR }} -type f -exec du -h {} \;
-          
-          echo "✅ File validation completed"
-
-      - name: 🧪 Run integrity checks
-        run: |
-          # Check if essential files exist
-          required_files=(
-            "${{ env.OUTPUT_DIR }}/themes/snake-light.svg"
-            "${{ env.OUTPUT_DIR }}/themes/snake-dark.svg"
-            "${{ env.OUTPUT_DIR }}/metrics/comprehensive-metrics.svg"
-          )
-          
-          for file in "${required_files[@]}"; do
-            if [ -f "$file" ]; then
-              echo "✅ $file exists"
-            else
-              echo "❌ $file missing"
-              exit 1
-            fi
-          done
-
-      - name: 📈 Generate report
-        run: |
-          echo "📋 GENERATION REPORT" >> $GITHUB_STEP_SUMMARY
-          echo "====================" >> $GITHUB_STEP_SUMMARY
-          echo "🕒 Generated at: $(date)" >> $GITHUB_STEP_SUMMARY
-          echo "👤 User: ${{ github.repository_owner }}" >> $GITHUB_STEP_SUMMARY
-          echo "📁 Output directory: ${{ env.OUTPUT_DIR }}" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "📊 Generated assets:" >> $GITHUB_STEP_SUMMARY
-          find ${{ env.OUTPUT_DIR }} -type f -name "*.svg" -o -name "*.gif" -o -name "*.json" \
-          | while read file; do
-            size=$(du -h "$file" | cut -f1)
-            echo "- $file ($size)" >> $GITHUB_STEP_SUMMARY
-          done
-   
-  deploy-assets:
-    name: 🚀 Deploy Assets
-    runs-on: ubuntu-latest
-    needs: [generate-snake, advanced-metrics, quality-assurance]
-    if: needs.quality-assurance.result == 'success'
-    permissions:
-      contents: write
-    
-    steps:
-      - name: 🚀 Checkout repository
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          ref: ${{ env.BRANCH }}
-
-      - name: 💾 Commit generated assets
+      - name: 💾 Commit and push generated assets
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: |
-            🚀 Advanced GitHub Metrics Update
-            • Multi-theme snake visualizations
-            • Comprehensive analytics dashboard
-            • Optimized image assets
-            • Automated update $(date +'%Y-%m-%d %H:%M %Z')
+            🐍 Update snake game visualization
+            - Generated snake.svg, snake-dark.svg, and snake.gif
+            - Added GitHub metrics overview
+            - Automated update $(date +'%Y-%m-%d %H:%M UTC')
             
             ${{ github.event.inputs.message }}
           branch: ${{ env.BRANCH }}
-          file_pattern: |
-            ${{ env.OUTPUT_DIR }}/**
-            README.md
-            !${{ env.OUTPUT_DIR }}/.gitkeep
-          commit_user_name: '🤖 GitHub Metrics Bot'
+          file_pattern: ${{ env.OUTPUT_DIR }}/**
+          commit_user_name: 'GitHub Actions'
           commit_user_email: 'actions@github.com'
-          commit_author: 'GitHub Metrics Bot <actions@github.com>'
-          tagging_message: 'v1.0.0'
 
-      - name: 📤 Upload to artifacts
+      - name: 📤 Upload artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: github-metrics-assets
-          path: ${{ env.OUTPUT_DIR }}
-          retention-days: 30
-          compression-level: 9
+          name: snake-visualization
+          path: ${{ env.OUTPUT_DIR }}/
+          retention-days: 7
 
-      - name: 🔔 Create deployment notification
-        uses: 8398a7/action-slack@v3
-        with:
-          status: ${{ job.status }}
-          text: '🎉 GitHub metrics updated successfully!'
-        env:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-        if: success() && env.SLACK_WEBHOOK_URL
-
-  cleanup:
-    name: 🧹 Cleanup
+  notify:
+    name: 📢 Notification
     runs-on: ubuntu-latest
-    needs: [deploy-assets, quality-assurance]
+    needs: generate-snake
     if: always()
     
     steps:
-      - name: 🗑️ Cleanup temporary files
+      - name: ✅ Success notification
+        if: needs.generate-snake.result == 'success'
         run: |
-          echo "🧹 Cleanup completed at $(date)"
-          # Add any cleanup operations here
+          echo "🐍 Snake visualization updated successfully!"
+          echo "📁 Files saved in: ${{ env.OUTPUT_DIR }}"
+          echo "🔗 View at: https://github.com/${{ github.repository }}/blob/main/${{ env.OUTPUT_DIR }}/snake.svg"
 
-      - name: 📊 Final status report
-        if: always()
+      - name: ❌ Failure notification
+        if: needs.generate-snake.result == 'failure'
         run: |
-          if [ "${{ needs.deploy-assets.result }}" == "success" ]; then
-            echo "🎉 Workflow completed successfully!"
-            echo "📊 View your metrics at: https://github.com/${{ github.repository }}/blob/main/${{ env.OUTPUT_DIR }}/"
-          else
-            echo "⚠️ Workflow completed with warnings"
-            echo "🔍 Check the logs for details"
-          fi
+          echo "❌ Failed to update snake visualization"
+          exit 1
