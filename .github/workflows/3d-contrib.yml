@@ -1,0 +1,23 @@
+name: Generate 3D Contribution Calendar
+
+on:
+  schedule: # Runs every 24 hours
+    - cron: "0 0 * * *"
+  workflow_dispatch: # Manual trigger
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-github-profile-3d-contrib
+    steps:
+      - uses: actions/checkout@v3
+      - uses: yoshi389111/github-profile-3d-contrib@0.7.0
+        with:
+          username: habibx792
+      - name: Push 3D Contrib
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: GitHub Actions
+          author_email: actions@github.com
+          message: "generated 3d profile contribution calendar"
+          add: "profile-3d-contrib/**"
