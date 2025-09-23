@@ -187,7 +187,6 @@
 <!-- BLOG-POST-LIST:END -->
 
 ---
-
 # 🖼️ Developer Gallery  
 
 <p align="center">
@@ -196,8 +195,15 @@
 </p>
 
 <p align="center">
+  <!-- First two project images -->
   <img src="https://github.com/habibx792/habibx792/blob/main/gallery/project1.png" width="45%" />
   <img src="https://github.com/habibx792/habibx792/blob/main/gallery/project2.png" width="45%" />
+</p>
+
+<p align="center">
+  <!-- New two project images -->
+  <img src="https://github.com/habibx792/habibx792/blob/main/gallery/project3.png" width="45%" />
+  <img src="https://github.com/habibx792/habibx792/blob/main/gallery/project4.png" width="45%" />
 </p>
 
 ---
