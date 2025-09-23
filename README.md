@@ -190,15 +190,19 @@
 # 🖼️ Developer Gallery  
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" width="400" alt="coding gif"/>
-  <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="400" alt="animation"/>
-</p>
-<p align="center">
-  <!-- Coding animation -->
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="400" alt="coding gif"/>
+  <!-- Developer typing -->
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="400" alt="developer coding"/>
   
-  <!-- Terminal / programming vibes -->
-  <img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="400" alt="programming gif"/>
+  <!-- Cool terminal animation -->
+  <img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="400" alt="terminal hacking"/>
+</p>
+
+<p align="center">
+  <!-- Funny coding stress -->
+  <img src="https://media.giphy.com/media/26n7b7PjSOZJwVCmY/giphy.gif" width="400" alt="funny coding"/>
+  
+  <!-- Futuristic AI coding animation -->
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnVtZWFwM3ZrZ3Q0ZzZidTZwbTgyaGZ4dTFobDd4c3lhOGhlcnBiYSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3o7abKhOpu0NwenH3O/giphy.gif" width="400" alt="AI coding futuristic"/>
 </p>
 
 
