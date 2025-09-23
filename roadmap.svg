@@ -59,6 +59,7 @@
       <stop offset="0%" stop-color="#2496ED"/>
       <stop offset="100%" stop-color="#1D63ED"/>
     </linearGradient>
+
     
     <linearGradient id="agenticAiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#DA22FF"/>
