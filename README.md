@@ -193,12 +193,15 @@
   <img src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" width="400" alt="coding gif"/>
   <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="400" alt="animation"/>
 </p>
-
 <p align="center">
-  <!-- First two project images -->
-  <img src="https://github.com/habibx792/habibx792/blob/main/gallery/project1.png" width="45%" />
-  <img src="https://github.com/habibx792/habibx792/blob/main/gallery/project2.png" width="45%" />
+  <!-- Coding animation -->
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="400" alt="coding gif"/>
+  
+  <!-- Terminal / programming vibes -->
+  <img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="400" alt="programming gif"/>
 </p>
+
+
 
 
 ---
