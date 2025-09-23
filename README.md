@@ -28,13 +28,28 @@
 ---
 
 ## 🛠️ Tech Stack  
+
+<div align="center">
+
+💻 **Languages, Frameworks & Tools I Use**
+
 <p align="center">
   <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,tailwind,cpp,cs,python,flutter,firebase,mysql,git,linux,docker,aws&perline=9" />
 </p>
 
+<!-- Gradient Divider -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
+
+🌟 **Contribution Snake**
+
 <p align="center">
-  <img src="https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg" alt="snake animation"/>
+  <img src="https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg" alt="snake animation" style="max-width: 100%; border-radius: 12px; box-shadow: 0px 0px 15px rgba(14, 117, 182, 0.6);" />
 </p>
+
+<!-- Animated Wave -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0E75B6&height=100&section=footer"/>
+
+</div>
 
 ---
 
