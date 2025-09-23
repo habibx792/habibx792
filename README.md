@@ -200,17 +200,10 @@
   <img src="https://github.com/habibx792/habibx792/blob/main/gallery/project2.png" width="45%" />
 </p>
 
-<p align="center">
-  <!-- New two project images -->
-  <img src="https://github.com/habibx792/habibx792/blob/main/gallery/project3.png" width="45%" />
-  <img src="https://github.com/habibx792/habibx792/blob/main/gallery/project4.png" width="45%" />
-</p>
 
 ---
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%"/>
-</p>
+
 
 <!-- 🌟 Part 4: Quotes + Fun + Support + Footer -->
 
