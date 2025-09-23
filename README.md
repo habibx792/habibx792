@@ -490,3 +490,92 @@ Here are some of my best works that combine **design, functionality, and scalabi
 </p>
 
 ---
+<!-- =======================
+🛠️ PART 8 – SKILLS & TOOLS VISUALIZATION
+======================= -->
+
+# 🛠️ Tech Stack & Skills  
+
+<p align="center">
+  <img src="https://i.ibb.co/MC9Knwq/skills.gif" width="600" alt="Skills Showcase"/>
+</p>
+
+---
+
+## 🚀 Core Programming  
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=cpp,cs,java,py,ts,js&perline=6" />
+</p>
+
+- **C++** – Data Structures, Algorithms, STL  
+- **C#** – Windows Forms, .NET, OOP Projects  
+- **JavaScript/TypeScript** – Full-stack web apps, games  
+- **Python** – AI/ML, automation, backend APIs  
+
+---
+
+## 🎨 Frontend Development  
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,react,nextjs,tailwind,bootstrap&perline=6" />
+</p>
+
+- **React & Next.js** – Modern UI/UX & scalable web apps  
+- **Tailwind CSS / Bootstrap** – Fast, responsive design  
+- **Animations** – Framer Motion, GSAP, CSS keyframes  
+
+---
+
+## ⚙️ Backend & Databases  
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=nodejs,express,mysql,postgres,firebase,mongodb&perline=6" />
+</p>
+
+- **Node.js & Express** – REST APIs & microservices  
+- **SQL (MySQL, Postgres)** – Schema design & transactions  
+- **NoSQL (MongoDB, Firebase)** – Real-time apps & storage  
+
+---
+
+## ☁️ Cloud & DevOps  
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=aws,azure,docker,linux,git,github,gitlab&perline=6" />
+</p>
+
+- **AWS** – S3, Lambda, EC2, IAM  
+- **Docker** – Containerized deployments  
+- **CI/CD** – GitHub Actions & GitLab Pipelines  
+- **Linux** – System administration & bash scripting  
+
+---
+
+## 🤖 AI & Data Science  
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,sklearn,jupyter&perline=5" />
+</p>
+
+- **ML Frameworks** – TensorFlow, PyTorch  
+- **Data Analysis** – Pandas, NumPy, Scikit-learn  
+- **Visualization** – Matplotlib, Seaborn  
+- **Projects** – OCR, recommendation systems, predictions  
+
+---
+
+## 📊 Skill Progress (Visual Bars)  
+
+<p align="center">
+  
+```mermaid
+%% Skills Visualization
+pie showData
+  title Tech Confidence Levels
+  "Frontend (React/Next.js)" : 25
+  "Backend (Node/SQL)" : 20
+  "AI/ML (Python)" : 15
+  "DevOps & Cloud" : 20
+  "Desktop Apps (C#/C++)" : 20
+
