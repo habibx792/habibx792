@@ -105,10 +105,12 @@
   </g>
 
   <!-- Main Title -->
-<text x="700" y="80" font-size="36" font-family="Arial" text-anchor="middle"
-      fill="#00F5D4">
-  🚀 My Tech Journey 2024
+<!-- Main Title: Glowing & Clear -->
+<text x="700" y="80" font-size="56" font-family="Arial Black" text-anchor="middle"
+      fill="#00F5D4" stroke="#00F5D4" stroke-width="2" filter="url(#neonGlow)">
+  🚀 MY TECH JOURNEY 2024
 </text>
+
 
   
   <text x="700" y="120" font-size="18" font-family="Arial" text-anchor="middle" fill="#888">
