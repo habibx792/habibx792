@@ -99,19 +99,19 @@ I craft **scalable APIs, performant web apps, and applied ML systems** with a fo
 <div align="center">
 
 ### 💻 **Programming Languages**
-<img src="https://skillicons.dev/icons?i=cpp,cs,java,python,js,ts&perline=6" />
+<img src="https://skillicons.dev/icons?i=cpp,cs,java,python,js&perline=6" />
 
 ### 🌐 **Frontend Ecosystem**
-<img src="https://skillicons.dev/icons?i=html,css,react,nextjs,vue,tailwind,bootstrap,materialui&perline=8" />
+<img src="https://skillicons.dev/icons?i=html,css,js,react&perline=8" />
 
 ### ⚙️ **Backend & Databases**
-<img src="https://skillicons.dev/icons?i=nodejs,express,django,flask,mysql,postgres,mongodb,redis,firebase&perline=9" />
+<img src="https://skillicons.dev/icons?i=nodejs,express,django,flask,mysql,postgres,mongodb&perline=9" />
 
 ### ☁️ **Cloud & DevOps**
-<img src="https://skillicons.dev/icons?i=aws,azure,gcp,docker,kubernetes,jenkins,git,github,gitlab,linux,bash&perline=11" />
+<img src="https://skillicons.dev/icons?i=aws,docker,git,github,gitlab,linux,bash&perline=11" />
 
 ### 🤖 **AI & Data Science**
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,jupyter&perline=3" />
+<img src="https://skillicons.dev/icons?i=tensorflow,pytorch&perline=3" />
 
 </div>
 
