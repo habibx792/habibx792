@@ -62,4 +62,72 @@
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
 </p>
 
+<!-- 🚀 Part 2: GitHub Stats + Contributions + Achievements -->
+
+# 📊 GitHub Analytics  
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=habibx792&show_icons=true&theme=radical&count_private=true&hide_border=true&bg_color=0D1117&title_color=00F5D4&icon_color=00F5D4" height="180"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=habibx792&theme=radical&hide_border=true&background=0D1117&ring=00F5D4&fire=FF6F61&currStreakLabel=FFD700" height="180"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=habibx792&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F5D4" height="150"/>
+</p>
+
+---
+
+# 📈 Contribution Activity  
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=habibx792&theme=radical" width="100%"/>
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=habibx792&theme=radical&no-frame=true&row=1&column=7" width="100%"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=habibx792&theme=react-dark&bg_color=0D1117&color=00F5D4&line=FF6F61&point=FFFFFF&hide_border=true" width="100%"/>
+</p>
+
+---
+
+# 🏆 Achievements & Badges  
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=habibx792&theme=algolia&no-frame=true&margin-w=15&margin-h=15"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Open%20Source%20Lover-4285F4?style=for-the-badge&logo=github&logoColor=white"/>
+  <img src="https://img.shields.io/badge/100%2B%20Commits-FFD700?style=for-the-badge&logo=git&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Problem%20Solver-06B6D4?style=for-the-badge&logo=hackerrank&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Always%20Learning-FF6F61?style=for-the-badge&logo=readthedocs&logoColor=white"/>
+</p>
+
+---
+
+# 🐍 Contribution Snake  
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/habibx792/habibx792/output/github-contribution-grid-snake.svg" alt="snake gif"/>
+</p>
+
+---
+
+# 🚀 Fun GitHub Widgets  
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=habibx792&label=Profile%20Views&color=FF6F61&style=for-the-badge"/>
+  <img src="https://img.shields.io/github/followers/habibx792?label=Followers&style=for-the-badge&color=00F5D4"/>
+  <img src="https://img.shields.io/github/stars/habibx792?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge&color=FFD700"/>
+</p>
+
+---
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/water.png" width="100%"/>
+</p>
+
 ---
