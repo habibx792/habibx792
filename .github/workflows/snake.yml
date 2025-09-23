@@ -1,25 +1,23 @@
-name: 🐍 Advanced GitHub Metrics & Snake Generator
+name: 🐍 GitHub Metrics & Snake Generator
 
 on:
   schedule:
-    # Run at different times for better distribution
-    - cron: "0 0 * * *"  # Daily midnight UTC
-    - cron: "0 12 * * *" # Daily noon UTC for backup
+    - cron: "0 0 * * *"
+    - cron: "0 12 * * *"
   workflow_dispatch:
     inputs:
       message:
         description: 'Custom commit message'
         required: false
-        default: '🚀 Advanced metrics update'
+        default: 'Update snake visualization'
 
 env:
   OUTPUT_DIR: 'assets/github-insights'
   BRANCH: 'main'
-  TIMEZONE: 'Asia/Karachi'
 
 jobs:
   generate-snake:
-    name: 🎯 Generate Snake Visualization
+    name: 🎯 Generate Snake & Metrics
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -28,23 +26,28 @@ jobs:
       - name: 🚀 Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: 📁 Setup output directory
-        run: |
-          mkdir -p ${{ env.OUTPUT_DIR }}/themes
-          mkdir -p ${{ env.OUTPUT_DIR }}/animations
-          mkdir -p ${{ env.OUTPUT_DIR }}/metrics
+      - name: 📁 Create output directory
+        run: mkdir -p ${{ env.OUTPUT_DIR }}
 
       - name: 🐍 Generate snake game visualization
-        uses: Platane/snk@v3
+        uses: Platane/snk@master
         with:
           github_user_name: habibx792
           outputs: |
-            ${{ env.OUTPUT_DIR }}/snake.svg
-            ${{ env.OUTPUT_DIR }}/snake-dark.svg?palette=github-dark
-            ${{ env.OUTPUT_DIR }}/snake.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a0ff,#4a88ff
+            snake.svg
+            snake-dark.svg
+            snake.gif
+          gif_out: true
+          svg_out: true
+          color_snake: "orange"
+          color_dots: "blue"
+
+      - name: 📁 Move snake files to output directory
+        run: |
+          mv snake.svg snake-dark.svg snake.gif ${{ env.OUTPUT_DIR }}/ 2>/dev/null || true
+          echo "📁 Files moved to ${{ env.OUTPUT_DIR }}/"
 
       - name: 📊 Generate GitHub metrics
         uses: lowlighter/metrics@latest
@@ -53,7 +56,7 @@ jobs:
           user: habibx792
           template: classic
           base: header, activity, community, repositories, metadata
-          config_timezone: ${{ env.TIMEZONE }}
+          config_timezone: Asia/Karachi
           plugin_lines: yes
           plugin_traffic: yes
           plugin_isocalendar: yes
@@ -62,30 +65,27 @@ jobs:
 
       - name: 🔍 Verify generated files
         run: |
-          echo "Generated files:"
+          echo "📁 Generated files in ${{ env.OUTPUT_DIR }}:"
           ls -la ${{ env.OUTPUT_DIR }}/
-          echo "File sizes:"
-          du -h ${{ env.OUTPUT_DIR }}/*
+          echo "✅ Files generated successfully!"
 
       - name: 💾 Commit and push generated assets
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: |
-            🐍 Update snake game visualization
-            - Generated snake.svg, snake-dark.svg, and snake.gif
-            - Added GitHub metrics overview
-            - Automated update $(date +'%Y-%m-%d %H:%M UTC')
+            🐍 Update snake visualization
+            - Generated snake graphics
+            - Updated GitHub metrics
+            - Automated: $(date)
             
             ${{ github.event.inputs.message }}
           branch: ${{ env.BRANCH }}
-          file_pattern: ${{ env.OUTPUT_DIR }}/**
-          commit_user_name: 'GitHub Actions'
-          commit_user_email: 'actions@github.com'
+          file_pattern: ${{ env.OUTPUT_DIR }}/*
 
       - name: 📤 Upload artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: snake-visualization
+          name: github-metrics
           path: ${{ env.OUTPUT_DIR }}/
           retention-days: 7
 
@@ -97,14 +97,14 @@ jobs:
     
     steps:
       - name: ✅ Success notification
-        if: needs.generate-snake.result == 'success'
+        if: needs.generate-snake.conclusion == 'success'
         run: |
-          echo "🐍 Snake visualization updated successfully!"
-          echo "📁 Files saved in: ${{ env.OUTPUT_DIR }}"
-          echo "🔗 View at: https://github.com/${{ github.repository }}/blob/main/${{ env.OUTPUT_DIR }}/snake.svg"
+          echo "🎉 Snake visualization updated successfully!"
+          echo "📁 Files: ${{ env.OUTPUT_DIR }}/"
+          echo "🔗 URL: https://github.com/${{ github.repository }}/blob/main/${{ env.OUTPUT_DIR }}/snake.svg"
 
       - name: ❌ Failure notification
-        if: needs.generate-snake.result == 'failure'
+        if: needs.generate-snake.conclusion == 'failure'
         run: |
-          echo "❌ Failed to update snake visualization"
+          echo "❌ Workflow failed - check logs for details"
           exit 1
