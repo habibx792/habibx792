@@ -105,10 +105,11 @@
   </g>
 
   <!-- Main Title -->
-<text x="700" y="80" font-size="56" font-family="Arial Black" text-anchor="middle"
-      fill="#00FFFF" stroke="#00FFFF" stroke-width="1.5" filter="url(#neonGlow)">
-  🚀 MY TECH JOURNEY 2024
+<text x="700" y="80" font-size="36" font-family="Arial" text-anchor="middle"
+      fill="#00F5D4">
+  🚀 My Tech Journey 2024
 </text>
+
   
   <text x="700" y="120" font-size="18" font-family="Arial" text-anchor="middle" fill="#888">
     C++ → C# → DSA → HTML → CSS → React → Git → Docker → Agentic AI → AI Engineering
