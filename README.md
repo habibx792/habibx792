@@ -10,18 +10,48 @@
 
 ---
 
-# 🌟 About Me
+<!-- 🌟 About Me - Modern Version -->
+<section align="center">
 
-✨ Always curious, always building.
+<h2>🌟 About Me</h2>
+<p style="font-size:16px; color:#00F5D4;">✨ Always curious, always building.</p>
 
-<ul>
-<li>🔭 Exploring <b>AI, ML, and Full Stack Development</b></li>
-<li>🌱 Currently learning: <b>System Design, Next.js, Cloud DevOps</b></li>
-<li>💡 Interests: <b>Open Source, Developer Tools, Automation, Creative Coding</b></li>
-<li>📫 Reach me at: <b><a href="mailto:ghulamhabib.x@gmail.com">ghulamhabib.x@gmail.com</a></b></li>
-<li>⚡ Motto: <i>"Passion + Consistency = Success in Tech"</i></li>
-<li>☕ Fun fact: I love turning <b>coffee into code</b>!</li>
-</ul>
+<div style="display:flex; flex-wrap:wrap; justify-content:center; gap:15px; margin-top:15px;">
+
+  <div style="background:#0D1117; color:white; padding:12px 18px; border-radius:12px; min-width:200px; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+    <h3>🔭 Exploring</h3>
+    <p><b>AI, ML, and Full Stack Development</b></p>
+  </div>
+
+  <div style="background:#0D1117; color:white; padding:12px 18px; border-radius:12px; min-width:200px; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+    <h3>🌱 Learning</h3>
+    <p><b>System Design, Next.js, Cloud DevOps</b></p>
+  </div>
+
+  <div style="background:#0D1117; color:white; padding:12px 18px; border-radius:12px; min-width:200px; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+    <h3>💡 Interests</h3>
+    <p><b>Open Source, Developer Tools, Automation, Creative Coding</b></p>
+  </div>
+
+  <div style="background:#0D1117; color:white; padding:12px 18px; border-radius:12px; min-width:200px; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+    <h3>📫 Contact</h3>
+    <p><b><a href="mailto:ghulamhabib.x@gmail.com" style="color:#00F5D4; text-decoration:none;">ghulamhabib.x@gmail.com</a></b></p>
+  </div>
+
+  <div style="background:#0D1117; color:white; padding:12px 18px; border-radius:12px; min-width:200px; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+    <h3>⚡ Motto</h3>
+    <p><i>"Passion + Consistency = Success in Tech"</i></p>
+  </div>
+
+  <div style="background:#0D1117; color:white; padding:12px 18px; border-radius:12px; min-width:200px; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+    <h3>☕ Fun Fact</h3>
+    <p>I love turning <b>coffee into code</b>!</p>
+  </div>
+
+</div>
+
+</section>
+
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
