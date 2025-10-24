@@ -113,4 +113,4 @@
 > "I drink coffee for your protection. ☕😎"
 
 > **🖥️ Classic Code Joke:**
-> "A SQL query walks into a bar, goes up to two tables and asks: 'Can I j
+> "A SQL query walks into a bar, goes up to two tables and asks: 'Can I join you?' 🍻"
