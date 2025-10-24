@@ -101,3 +101,16 @@
   <img src="https://img.shields.io/badge/Problem%20Solver-06B6D4?style=for-the-badge&logo=hackerrank&logoColor=white"/>
   <img src="https://img.shields.io/badge/Always%20Learning-FF6F61?style=for-the-badge&logo=readthedocs&logoColor=white"/>
 </p>
+
+---
+
+# 😂 Fun & Jokes
+
+> **💻 Dev Joke:**
+> "Why do programmers prefer dark mode? Because light attracts bugs! 🐛"
+
+> **☕ Coffee Joke:**
+> "I drink coffee for your protection. ☕😎"
+
+> **🖥️ Classic Code Joke:**
+> "A SQL query walks into a bar, goes up to two tables and asks: 'Can I j
