@@ -11,46 +11,18 @@
 ---
 
 <!-- 🌟 About Me - Modern Version -->
-<section align="center">
+# 🌟 About Me
 
-<h2>🌟 About Me</h2>
-<p style="font-size:16px; color:#00F5D4;">✨ Always curious, always building.</p>
+✨ Always curious, always building.
 
-<div style="display:flex; flex-wrap:wrap; justify-content:center; gap:15px; margin-top:15px;">
+| 🔭 Exploring | 🌱 Learning | 💡 Interests |
+|-------------|-------------|-------------|
+| AI, ML, and Full Stack Development | System Design, Next.js, Cloud DevOps | Open Source, Developer Tools, Automation, Creative Coding |
 
-  <div style="background:#0D1117; color:white; padding:12px 18px; border-radius:12px; min-width:200px; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
-    <h3>🔭 Exploring</h3>
-    <p><b>AI, ML, and Full Stack Development</b></p>
-  </div>
+| 📫 Contact | ⚡ Motto | ☕ Fun Fact |
+|-----------|---------|------------|
+| [ghulamhabib.x@gmail.com](mailto:ghulamhabib.x@gmail.com) | "Passion + Consistency = Success in Tech" | I love turning **coffee into code**! |
 
-  <div style="background:#0D1117; color:white; padding:12px 18px; border-radius:12px; min-width:200px; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
-    <h3>🌱 Learning</h3>
-    <p><b>System Design, Next.js, Cloud DevOps</b></p>
-  </div>
-
-  <div style="background:#0D1117; color:white; padding:12px 18px; border-radius:12px; min-width:200px; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
-    <h3>💡 Interests</h3>
-    <p><b>Open Source, Developer Tools, Automation, Creative Coding</b></p>
-  </div>
-
-  <div style="background:#0D1117; color:white; padding:12px 18px; border-radius:12px; min-width:200px; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
-    <h3>📫 Contact</h3>
-    <p><b><a href="mailto:ghulamhabib.x@gmail.com" style="color:#00F5D4; text-decoration:none;">ghulamhabib.x@gmail.com</a></b></p>
-  </div>
-
-  <div style="background:#0D1117; color:white; padding:12px 18px; border-radius:12px; min-width:200px; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
-    <h3>⚡ Motto</h3>
-    <p><i>"Passion + Consistency = Success in Tech"</i></p>
-  </div>
-
-  <div style="background:#0D1117; color:white; padding:12px 18px; border-radius:12px; min-width:200px; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
-    <h3>☕ Fun Fact</h3>
-    <p>I love turning <b>coffee into code</b>!</p>
-  </div>
-
-</div>
-
-</section>
 
 
 <p align="center">
