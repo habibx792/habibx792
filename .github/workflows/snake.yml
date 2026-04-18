@@ -1,0 +1,29 @@
+name: 🐍 Generate GitHub Contributions Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # Run daily at midnight
+  workflow_dispatch:     # Manual trigger
+
+jobs:
+  generate-snake:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: 🚀 Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 🐍 Generate GitHub contributions snake
+        uses: Platane/snk@master
+        with:
+          github_user_name: habibx792
+          outputs: dist/github-snake.svg
+          svg_out: true
+
+      - name: 💾 Commit and push
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "🐍 Update GitHub contributions snake"
+          file_pattern: dist/github-snake.svg
