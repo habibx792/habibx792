@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Ghulam Habib</h1>
+<!-- <h1 align="center">Hi 👋, I'm Ghulam Habib</h1>
 <h3 align="center">
   Software Engineer &nbsp;•&nbsp; Problem Solver &nbsp;•&nbsp; Developer &nbsp;•&nbsp; Curious Mind
 </h3>
@@ -44,4 +44,4 @@
 
 <p align="center">
   <i>"Crafting digital solutions with clean code & creativity"</i>
-</p>
+</p> -->
