@@ -8,7 +8,7 @@
 ### 📬 Contact & Profiles
 
 <p align="center">
-  🌐 <strong>Portfolio:</strong> <a href="https://ghulamhabib-web-beta.vercel.app/" target="_blank">portfolioweb-chi-one.vercel.app</a>
+  🌐 <strong>Portfolio:</strong> <a href="https://ghulamhabib-web-beta.vercel.app/" target="_blank">https://ghulamhabib-web-beta.vercel.app/</a>
 </p>
 
 <br/>
